@@ -1,0 +1,878 @@
+2024-07-26 18:27:16.581 INFO     Starting Connection Manager
+2024-07-26 18:27:16.581 INFO     Initiating connection to Decoder on behalf of 
+2024-07-26 18:27:16.581 INFO     Connected to Decoder server on port 5002 for 
+2024-07-26 18:27:16.581 INFO     Connection Manager Running
+2024-07-26 18:27:16.581 INFO     Message Coordinator Started
+2024-07-26 18:27:20.872 INFO     MSG: b'\r\x06\xf9\n'
+2024-07-26 18:27:20.872 INFO     [1;32mDecoder -> [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+2024-07-26 18:27:20.872 INFO     Processing time: 0:00:00.000418
+
+2024-07-26 18:27:27.884 INFO     MSG: b'\r\xb0\x03Q\x08\xff\x08\xff\x03\x18$K\x8fC\x8d\n'
+2024-07-26 18:27:27.884 INFO     B0 Message: b0
+2024-07-26 18:27:27.885 INFO     Using b0_51_data_decoder
+2024-07-26 18:27:27.885 INFO     [1;32mDecoder -> [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=8, data=B0DecodedData(data=['18', '24', '4b']), checksum='8d', verified=True)
+2024-07-26 18:27:27.885 INFO     Processing time: 0:00:00.000863
+
+2024-07-26 18:27:30.509 INFO     MSG: b'\r\xb0\x03$\x1a\xff\x08\xff\x15\x02\x00\x00\x00\x00\x00\x00\x00,\x1a\x12\x1a\x07\x18\x14\x06\x01\x00\x81\x00\x00\x92C\xea\n'
+2024-07-26 18:27:30.510 INFO     B0 Message: b0
+2024-07-26 18:27:30.510 INFO     Using b0_24_data_decoder
+2024-07-26 18:27:30.513 INFO     [1;32mDecoder -> [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:26:44', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='ea', verified=True)
+2024-07-26 18:27:30.514 INFO     Processing time: 0:00:00.004198
+
+2024-07-26 18:27:30.739 INFO     MSG: b'\r\xb0\x03K\x9b\xff(\x03\x96\xcf\xe9\xa3f\x04a\xea\xa3f\x02A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00\x93C\x81\n'
+2024-07-26 18:27:30.739 INFO     B0 Message: b0
+2024-07-26 18:27:30.739 INFO     Using b0_4b_data_decoder
+2024-07-26 18:27:30.740 INFO     [1;32mDecoder -> [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:26:41', 'code': 'CLOSED'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='81', verified=True)
+2024-07-26 18:27:30.740 INFO     Processing time: 0:00:00.000989
+
+2024-07-26 18:27:30.946 INFO     MSG: b'\r\x06\xf9\n'
+2024-07-26 18:27:30.946 INFO     [1;32mDecoder -> [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+2024-07-26 18:27:30.946 INFO     Processing time: 0:00:00.000335
+
+2024-07-26 18:27:30.998 INFO     MSG: b'\r\xb0\x03T\x05\xffH\xff\x00\x94C\xd2\n'
+2024-07-26 18:27:30.998 INFO     B0 Message: b0
+2024-07-26 18:27:30.998 INFO     Using generic data decoder
+2024-07-26 18:27:30.998 INFO     [1;32mDecoder -> [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='d2', verified=True)
+2024-07-26 18:27:30.999 INFO     Processing time: 0:00:00.000444
+
+2024-07-26 18:27:40.916 INFO     MSG: b'\r\x06\xf9\n'
+2024-07-26 18:27:40.916 INFO     [1;32mDecoder -> [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+2024-07-26 18:27:40.916 INFO     Processing time: 0:00:00.000341
+
+2024-07-26 18:27:50.906 INFO     MSG: b'\r\x06\xf9\n'
+2024-07-26 18:27:50.906 INFO     [1;32mDecoder -> [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+2024-07-26 18:27:50.906 INFO     Processing time: 0:00:00.000351
+
+2024-07-26 18:28:00.926 INFO     MSG: b'\r\x06\xf9\n'
+2024-07-26 18:28:00.927 INFO     [1;32mDecoder -> [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+2024-07-26 18:28:00.927 INFO     Processing time: 0:00:00.000315
+
+2024-07-26 18:28:03.474 INFO     MSG: b'\r\xa5\x00\x04\x00\x01\x0f\x00\x00\x16\x00\x00C\xec\n'
+2024-07-26 18:28:03.475 INFO     [1;32mDecoder -> [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 04 00 01 0f 00 00 16 00 00 43', checksum='ec', verified=True)
+2024-07-26 18:28:03.475 INFO     Processing time: 0:00:00.000325
+
+2024-07-26 18:28:03.700 INFO     MSG: b'\r\xb0\x03+-\xff\x10\xff(1\x08Q\x06\x01\x08\x01\x00\x01\x07\x01\x05\x01\x05Q\x08v\x08x\x08\x01\x05Q\x08\x00\x00y\x08\x00\x00\x00\x00\x00\x00\x00\x00\x80\x08\x81\x08\x9aC\xe3\n'
+2024-07-26 18:28:03.700 INFO     B0 Message: b0
+2024-07-26 18:28:03.700 INFO     Using generic data decoder
+2024-07-26 18:28:03.700 INFO     [1;32mDecoder -> [1;36mDECODED 2b:[0m B0Response(type='RESPONSE', command='2b', cmd_name='UNKNOWN2B', params='', page=255, length=45, data=B0GenDecodedData(data=[{'type': 'WORD16', 'idx': 255, 'idx_name': 'NA', 'len': 40, 'data': ['31 08', '51 06', '01 08', '01 00', '01 07', '01 05', '01 05', '51 08', '76 08', '78 08', '01 05', '51 08', '00 00', '79 08', '00 00', '00 00', '00 00', '00 00', '80 08', '81 08']}], length=45), checksum='e3', verified=True)
+2024-07-26 18:28:03.700 INFO     Processing time: 0:00:00.000554
+
+2024-07-26 18:28:03.894 INFO     MSG: b'\r\xb0\x03"/\xff\x10\xff*\x08\x00\x0f\x00\x08\x00@\x00 \x00 \x000\x00\x00\x00\x01\x00\x01\x00 \x00\x10\x00\x01\x00\x01\x00\x03\x00\x01\x00\x0f\x00\xe8\x03\x00\x00\x1f\x00\n\x00\x9bC\xb5\n'
+2024-07-26 18:28:03.895 INFO     B0 Message: b0
+2024-07-26 18:28:03.895 INFO     Using b0_22_data_decoder
+2024-07-26 18:28:03.895 INFO     [1;32mDecoder -> [1;36mDECODED 22:[0m B0Response(type='RESPONSE', command='22', cmd_name='SYSTEM_CAPABILITIES', params='', page=255, length=47, data=B0DecodedData(data={'REPEATERS': 8, 'X10': 15, 'SIRENS': 8, 'ZONES': 64, 'KEYPADS': 32, 'KEYFOBS': 32, 'USERCODES': 48, 'CAMERASA': 0, 'UNK8': 1, 'POWERLINK': 1, 'TAGS': 32, 'CAMERASB': 16, 'PANEL': 1, 'UNK13': 1, 'PARTITIONS': 3, 'UNK15': 1, 'UNK16': 15, 'EVENTS': 1000, 'UKN18': 0, 'UNK19': 31, 'UNK20': 10}), checksum='b5', verified=True)
+2024-07-26 18:28:03.895 INFO     Processing time: 0:00:00.000721
+
+2024-07-26 18:28:04.136 INFO     MSG: b'\r\xb0\x035\x0b\xff\x08\xff\x06\x01\x00\x01\x00\x124\x9cC\xd5\n'
+2024-07-26 18:28:04.137 INFO     B0 Message: b0
+2024-07-26 18:28:04.137 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.137 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:04.137 INFO     [1;32mDecoder -> [1;36mDECODED 35 01 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='01 00', page=255, length=11, data=B0Cmd35DecodedData(data='001234', length=3, config='01 00', config_str='COMMS_CS_REC2_ACCT', data_type='DIRECT_MAP_STRING'), checksum='d5', verified=True)
+2024-07-26 18:28:04.137 INFO     Processing time: 0:00:00.000605
+
+2024-07-26 18:28:04.234 INFO     MSG: b'\r\xb0\x0350\xff\x08\xff+\x07\x00\x04\x04\x00\x0f\x00\x04\x00\x1e\x00\x08\x00\x08\x00\x08\x00\x00\x00\x01\x00\x01\x00\x08\x00\x10\x00\x01\x00\x01\x00\xfa\x00\x03\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x9dCA\n'
+2024-07-26 18:28:04.234 INFO     B0 Message: b0
+2024-07-26 18:28:04.234 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.234 INFO     Using format decoder: m35_07_00_decoder
+2024-07-26 18:28:04.234 INFO     [1;32mDecoder -> [1;36mDECODED 35 07 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='07 00', page=255, length=48, data=B0Cmd35DecodedData(data={'REPEATERS': 4, 'X10': 15, 'SIRENS': 4, 'ZONES': 30, 'KEYPADS': 8, 'KEYFOBS': 8, 'USERCODES': 8, 'CAMERASA': 0, 'UNK8': 1, 'POWERLINK': 1, 'TAGS': 8, 'CAMERASB': 16, 'PANEL': 1, 'UNK13': 1, 'EVENTS': 250, 'PARTITIONS': 3, 'UNK16': 0, 'UNK17': 31, 'UKN18': 0, 'UNK19': 0}, length=40, config='07 00', config_str='CAPABILITIES', data_type='INTEGER'), checksum='41', verified=True)
+2024-07-26 18:28:04.235 INFO     Processing time: 0:00:00.000856
+
+2024-07-26 18:28:04.306 INFO     MSG: b'\r\xb0\x035\x10\xff\x08\xff\x0b\x0e\x00\x01\xff\xff\xff\xff\xff\xff\xff\xff\x9eC\x03\n'
+2024-07-26 18:28:04.306 INFO     B0 Message: b0
+2024-07-26 18:28:04.306 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.306 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:04.306 INFO     [1;32mDecoder -> [1;36mDECODED 35 0e 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='0e 00', page=255, length=16, data=B0Cmd35DecodedData(data='ffffffffffffffff', length=8, config='0e 00', config_str='Unknown', data_type='DIRECT_MAP_STRING'), checksum='03', verified=True)
+2024-07-26 18:28:04.306 INFO     Processing time: 0:00:00.000624
+
+2024-07-26 18:28:04.382 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\x10\x00\x04\x00\x9fC\x0b\n'
+2024-07-26 18:28:04.382 INFO     B0 Message: b0
+2024-07-26 18:28:04.383 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.383 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:04.383 INFO     [1;32mDecoder -> [1;36mDECODED 35 10 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='10 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='10 00', config_str='Unknown', data_type='INTEGER'), checksum='0b', verified=True)
+2024-07-26 18:28:04.383 INFO     Processing time: 0:00:00.000557
+
+2024-07-26 18:28:04.457 INFO     MSG: b'\r\xb0\x035\n\xff\x08\xff\x05$\x00\x04\xae\x07\xa0C>\n'
+2024-07-26 18:28:04.458 INFO     B0 Message: b0
+2024-07-26 18:28:04.458 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.458 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:04.458 INFO     [1;32mDecoder -> [1;36mDECODED 35 24 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='24 00', page=255, length=10, data=B0Cmd35DecodedData(data=[174, 7], length=2, config='24 00', config_str='PANEL_EPROM_VERSION', data_type='INTEGER'), checksum='3e', verified=True)
+2024-07-26 18:28:04.458 INFO     Processing time: 0:00:00.000543
+
+2024-07-26 18:28:04.534 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04)\x00\x04\x04\xa1C\xeb\n'
+2024-07-26 18:28:04.534 INFO     B0 Message: b0
+2024-07-26 18:28:04.534 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.534 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:04.534 INFO     [1;32mDecoder -> [1;36mDECODED 35 29 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='29 00', page=255, length=9, data=B0Cmd35DecodedData(data=4, length=1, config='29 00', config_str='Unknown', data_type='INTEGER'), checksum='eb', verified=True)
+2024-07-26 18:28:04.534 INFO     Processing time: 0:00:00.000634
+
+2024-07-26 18:28:04.609 INFO     MSG: b'\r\xb0\x035\x18\xff\x08\xff\x13,\x00\x06J-703883 I20.214\xa2C\x84\n'
+2024-07-26 18:28:04.609 INFO     B0 Message: b0
+2024-07-26 18:28:04.609 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.609 INFO     Using generic data format decoder for data type: 6
+2024-07-26 18:28:04.609 INFO     [1;32mDecoder -> [1;36mDECODED 35 2c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='2c 00', page=255, length=24, data=B0Cmd35DecodedData(data='J-703883 I20.214', length=16, config='2c 00', config_str='PANEL_DEFAULT_VERSION', data_type='STRING'), checksum='84', verified=True)
+2024-07-26 18:28:04.609 INFO     Processing time: 0:00:00.000587
+
+2024-07-26 18:28:04.690 INFO     MSG: b'\r\xb0\x035\x18\xff\x08\xff\x13-\x00\x06JS703642 I20.214\xa3Cc\n'
+2024-07-26 18:28:04.690 INFO     B0 Message: b0
+2024-07-26 18:28:04.690 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.690 INFO     Using generic data format decoder for data type: 6
+2024-07-26 18:28:04.691 INFO     [1;32mDecoder -> [1;36mDECODED 35 2d 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='2d 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS703642 I20.214', length=16, config='2d 00', config_str='PANEL_SOFTWARE_VERSION', data_type='STRING'), checksum='63', verified=True)
+2024-07-26 18:28:04.691 INFO     Processing time: 0:00:00.000558
+
+2024-07-26 18:28:04.776 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x040\x00\x04\x00\xa4C\xe5\n'
+2024-07-26 18:28:04.776 INFO     B0 Message: b0
+2024-07-26 18:28:04.776 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.777 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:04.777 INFO     [1;32mDecoder -> [1;36mDECODED 35 30 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='30 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='30 00', config_str='PARTITIONS_ENABLED', data_type='INTEGER'), checksum='e5', verified=True)
+2024-07-26 18:28:04.777 INFO     Processing time: 0:00:00.000563
+
+2024-07-26 18:28:04.883 INFO     MSG: b'\r\xb0\x035\x17\xff\x08\xff\x12<\x00\x08PowerMaster-10 \xa5C\x8c\n'
+2024-07-26 18:28:04.883 INFO     B0 Message: b0
+2024-07-26 18:28:04.883 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.883 INFO     Using generic data format decoder for data type: 8
+2024-07-26 18:28:04.883 INFO     [1;32mDecoder -> [1;36mDECODED 35 3c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3c 00', page=255, length=23, data=B0Cmd35DecodedData(data='PowerMaster-10', length=15, config='3c 00', config_str='PANEL_HARDWARE_VERSION', data_type='SPACE_PADDED_STRING'), checksum='8c', verified=True)
+2024-07-26 18:28:04.883 INFO     Processing time: 0:00:00.000514
+
+2024-07-26 18:28:04.974 INFO     MSG: b'\r\xb0\x035\x18\xff\x08\xff\x13=\x00\x06JS702414 I02.036\xa6CR\n'
+2024-07-26 18:28:04.974 INFO     B0 Message: b0
+2024-07-26 18:28:04.974 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:04.975 INFO     Using generic data format decoder for data type: 6
+2024-07-26 18:28:04.975 INFO     [1;32mDecoder -> [1;36mDECODED 35 3d 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3d 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS702414 I02.036', length=16, config='3d 00', config_str='PANEL_RSU_VERSION', data_type='STRING'), checksum='52', verified=True)
+2024-07-26 18:28:04.975 INFO     Processing time: 0:00:00.000794
+
+2024-07-26 18:28:05.062 INFO     MSG: b'\r\xb0\x035\x18\xff\x08\xff\x13>\x00\x06JS702413 I01.033\xa7CU\n'
+2024-07-26 18:28:05.063 INFO     B0 Message: b0
+2024-07-26 18:28:05.063 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:05.063 INFO     Using generic data format decoder for data type: 6
+2024-07-26 18:28:05.063 INFO     [1;32mDecoder -> [1;36mDECODED 35 3e 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3e 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS702413 I01.033', length=16, config='3e 00', config_str='PANEL_BOOT_VERSION', data_type='STRING'), checksum='55', verified=True)
+2024-07-26 18:28:05.063 INFO     Processing time: 0:00:00.000557
+
+2024-07-26 18:28:05.146 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04[\x00\x04\xa0\xa8C\x16\n'
+2024-07-26 18:28:05.146 INFO     B0 Message: b0
+2024-07-26 18:28:05.146 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:05.146 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:05.146 INFO     [1;32mDecoder -> [1;36mDECODED 35 5b 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='5b 00', page=255, length=9, data=B0Cmd35DecodedData(data=160, length=1, config='5b 00', config_str='BYPASS_ARM', data_type='INTEGER'), checksum='16', verified=True)
+2024-07-26 18:28:05.146 INFO     Processing time: 0:00:00.000535
+
+2024-07-26 18:28:05.221 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\\\x00\x04\xa1\xa9C\x13\n'
+2024-07-26 18:28:05.221 INFO     B0 Message: b0
+2024-07-26 18:28:05.221 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:05.221 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:05.222 INFO     [1;32mDecoder -> [1;36mDECODED 35 5c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='5c 00', page=255, length=9, data=B0Cmd35DecodedData(data=161, length=1, config='5c 00', config_str='Unknown', data_type='INTEGER'), checksum='13', verified=True)
+2024-07-26 18:28:05.222 INFO     Processing time: 0:00:00.000516
+
+2024-07-26 18:28:05.446 INFO     MSG: b'\r\xb0\x03V\x0c\xff\x08\xff\x07\x03\x00\x02\x00\x06\x00\x00\xaaC\xe1\n'
+2024-07-26 18:28:05.446 INFO     B0 Message: b0
+2024-07-26 18:28:05.447 INFO     Using generic data decoder
+2024-07-26 18:28:05.447 INFO     [1;32mDecoder -> [1;36mDECODED 56:[0m B0Response(type='RESPONSE', command='56', cmd_name='UNKNOWN', params='', page=255, length=12, data=B0GenDecodedData(data=[{'type': 'BYTES', 'idx': 255, 'idx_name': 'NA', 'len': 7, 'data': ['03', '00', '02', '00', '06', '00', '00']}], length=12), checksum='e1', verified=True)
+2024-07-26 18:28:05.447 INFO     Processing time: 0:00:00.000507
+
+2024-07-26 18:28:05.628 INFO     MSG: b'\r<\xfd\n\x00\x00\xae\x07\x01\x00\x00\x00\x05\n'
+2024-07-26 18:28:05.629 INFO     [1;32mDecoder -> [1;36mDECODED 3c:[0m STDMessage(command='3c', command_str='EPROM_INFO', data='fd 0a 00 00 ae 07 01 00 00 00', checksum='05', verified=True)
+2024-07-26 18:28:05.629 INFO     Processing time: 0:00:00.000315
+
+2024-07-26 18:28:05.816 INFO     MSG: b'\r?\xe0\x01\x01\x02\xdb\n'
+2024-07-26 18:28:05.816 INFO     [1;32mDecoder -> [1;36mDECODED 3f:[0m STDMessage(command='3f', command_str='CONFIG_VALUE', data='e0 01 01 02', checksum='db', verified=True)
+2024-07-26 18:28:05.816 INFO     Processing time: 0:00:00.000310
+
+2024-07-26 18:28:05.916 INFO     MSG: b'\r\xb0\x03Q\x06\xff\x08\xff\x01$\xadC\xd6\n'
+2024-07-26 18:28:05.917 INFO     B0 Message: b0
+2024-07-26 18:28:05.917 INFO     Using b0_51_data_decoder
+2024-07-26 18:28:05.917 INFO     [1;32mDecoder -> [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=6, data=B0DecodedData(data=['24']), checksum='d6', verified=True)
+2024-07-26 18:28:05.917 INFO     Processing time: 0:00:00.000495
+
+2024-07-26 18:28:06.095 INFO     MSG: b'\r\xb0\x035\x0e\xff\x08\xff\t\x03\x00\x01\x05 X\x10Q\x81\xafC\xa0\n'
+2024-07-26 18:28:06.096 INFO     B0 Message: b0
+2024-07-26 18:28:06.096 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:06.096 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:06.096 INFO     [1;32mDecoder -> [1;36mDECODED 35 03 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='03 00', page=255, length=14, data=B0Cmd35DecodedData(data='052058105181', length=6, config='03 00', config_str='COMMS_CS_REC1_IP', data_type='DIRECT_MAP_STRING'), checksum='a0', verified=True)
+2024-07-26 18:28:06.096 INFO     Processing time: 0:00:00.000678
+
+2024-07-26 18:28:06.273 INFO     MSG: b'\r\xb0\x035\x0e\xff\x08\xff\t\x05\x00\x01\x19!h \x00T\xb0C\xe6\n'
+2024-07-26 18:28:06.274 INFO     B0 Message: b0
+2024-07-26 18:28:06.274 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:06.274 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:06.274 INFO     [1;32mDecoder -> [1;36mDECODED 35 05 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='05 00', page=255, length=14, data=B0Cmd35DecodedData(data='192168200054', length=6, config='05 00', config_str='COMMS_CS_REC2_IP', data_type='DIRECT_MAP_STRING'), checksum='e6', verified=True)
+2024-07-26 18:28:06.274 INFO     Processing time: 0:00:00.000529
+
+2024-07-26 18:28:06.466 INFO     MSG: b'\r\xb0\x035\x0b\xff\x08\xff\x06\x8a\x00\x04\x02\x00\x00\xb1Cx\n'
+2024-07-26 18:28:06.466 INFO     B0 Message: b0
+2024-07-26 18:28:06.466 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:06.467 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:06.467 INFO     [1;32mDecoder -> [1;36mDECODED 35 8a 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='8a 00', page=255, length=11, data=B0Cmd35DecodedData(data=[2, 0, 0], length=3, config='8a 00', config_str='Unknown', data_type='INTEGER'), checksum='78', verified=True)
+2024-07-26 18:28:06.467 INFO     Processing time: 0:00:00.000562
+
+2024-07-26 18:28:06.684 INFO     MSG: b'\r\xb0\x035h\xff\x08\xffc\x08\x00\x01\x11\x11\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb2C"\n'
+2024-07-26 18:28:06.684 INFO     B0 Message: b0
+2024-07-26 18:28:06.684 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:06.684 INFO     Using format decoder: m35_08_00_decoder
+2024-07-26 18:28:06.684 INFO     [1;32mDecoder -> [1;36mDECODED 35 08 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='08 00', page=255, length=104, data=B0Cmd35DecodedData(data={1: '1111'}, length=96, config='08 00', config_str='USER_CODES', data_type='DIRECT_MAP_STRING'), checksum='22', verified=True)
+2024-07-26 18:28:06.685 INFO     Processing time: 0:00:00.000834
+
+2024-07-26 18:28:06.911 INFO     MSG: b'\r\xb0\x03B\x1b\xff\x08\xff\x16\xe2\x00\x08\x00\x08\x00\x00\x00\x04\x1e\x00\x00\x08\x00\x07\x01\x01\x01\x01\x01\x01\x01\xb3C\xae\n'
+2024-07-26 18:28:06.911 INFO     B0 Message: b0
+2024-07-26 18:28:06.911 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:06.911 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:06.911 INFO     [1;32mDecoder -> [1;36mDECODED 42 e2 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='e2 00', page=255, length=27, data=B0Cmd42DecodedData(data=[7, 1, 1, 1, 1, 1, 1, 1], length=8, config='e2 00', config_str='USER_PARTITION_ACCESS', data_type='INTEGER'), checksum='ae', verified=True)
+2024-07-26 18:28:06.911 INFO     Processing time: 0:00:00.000569
+
+2024-07-26 18:28:07.094 INFO     MSG: b'\r\xb0\x035\n\xff\x08\xff\x05\x0f\x00\x01\xaa\xaa\xb4C\xa2\n'
+2024-07-26 18:28:07.094 INFO     B0 Message: b0
+2024-07-26 18:28:07.094 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:07.094 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:07.094 INFO     [1;32mDecoder -> [1;36mDECODED 35 0f 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='0f 00', page=255, length=10, data=B0Cmd35DecodedData(data='aaaa', length=2, config='0f 00', config_str='DOWNLOAD_CODE', data_type='DIRECT_MAP_STRING'), checksum='a2', verified=True)
+2024-07-26 18:28:07.094 INFO     Processing time: 0:00:00.000529
+
+2024-07-26 18:28:07.176 INFO     MSG: b'\r\xb0\x035\n\xff\x08\xff\x05T\x00\x01\x88\x88\xb5C\xa0\n'
+2024-07-26 18:28:07.176 INFO     B0 Message: b0
+2024-07-26 18:28:07.176 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:07.176 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:07.176 INFO     [1;32mDecoder -> [1;36mDECODED 35 54 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='54 00', page=255, length=10, data=B0Cmd35DecodedData(data='8888', length=2, config='54 00', config_str='INSTALLER_CODE', data_type='DIRECT_MAP_STRING'), checksum='a0', verified=True)
+2024-07-26 18:28:07.176 INFO     Processing time: 0:00:00.000879
+
+2024-07-26 18:28:07.247 INFO     MSG: b'\r\xb0\x035\n\xff\x08\xff\x05U\x00\x01\x99\x99\xb6C|\n'
+2024-07-26 18:28:07.247 INFO     B0 Message: b0
+2024-07-26 18:28:07.247 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:07.248 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:07.248 INFO     [1;32mDecoder -> [1;36mDECODED 35 55 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='55 00', page=255, length=10, data=B0Cmd35DecodedData(data='9999', length=2, config='55 00', config_str='MASTER_CODE', data_type='DIRECT_MAP_STRING'), checksum='7c', verified=True)
+2024-07-26 18:28:07.248 INFO     Processing time: 0:00:00.000528
+
+2024-07-26 18:28:07.327 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\x06\x01\x04\x00\xb7C\xfb\n'
+2024-07-26 18:28:07.327 INFO     B0 Message: b0
+2024-07-26 18:28:07.327 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:07.327 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:07.327 INFO     [1;32mDecoder -> [1;36mDECODED 35 06 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='06 01', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='06 01', config_str='Unknown', data_type='INTEGER'), checksum='fb', verified=True)
+2024-07-26 18:28:07.328 INFO     Processing time: 0:00:00.000531
+
+2024-07-26 18:28:07.573 INFO     MSG: b'\r\xb0\x03B\x13\xff\x08\xff\x0e\r\x00\x00\x00\xf0\x00\x00\x00\n\x00\x00\x00\x00\x00\xb9C\xdb\n'
+2024-07-26 18:28:07.573 INFO     B0 Message: b0
+2024-07-26 18:28:07.573 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:07.573 INFO     Using generic data format decoder for data type: 10
+2024-07-26 18:28:07.573 INFO     [1;32mDecoder -> [1;36mDECODED 42 0d 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='0d 00', page=255, length=19, data=B0Cmd42DecodedData(data=None, length=0, config='0d 00', config_str='ZONE_NAMES', data_type='SPACE_PADDED_STRING_LIST'), checksum='db', verified=True)
+2024-07-26 18:28:07.574 INFO     Processing time: 0:00:00.000559
+
+2024-07-26 18:28:07.631 INFO     MSG: b'\r\xa5\x00\x04\x00A\x0f\x00\x00\x16\x00\x00C\xac\n'
+2024-07-26 18:28:07.631 INFO     [1;32mDecoder -> [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 04 00 41 0f 00 00 16 00 00 43', checksum='ac', verified=True)
+2024-07-26 18:28:07.631 INFO     Processing time: 0:00:00.000301
+
+2024-07-26 18:28:07.868 INFO     MSG: b'\r\xb0\x02B\x8b\x01\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x00\x00\x04\x00L\x00o\x00f\x00t\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00B\x00a\x00c\x00k\x00 \x00d\x00o\x00o\x00r\x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00e\x00l\x00l\x00a\x00r\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00B\x00a\x00t\x00h\x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\xbaC\xdb\n'
+2024-07-26 18:28:07.868 INFO     B0 Message: b0
+2024-07-26 18:28:07.993 INFO     MSG: b'\r\xb0\x02B\x8b\x02\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x04\x00\x04\x00B\x00e\x00d\x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00h\x00i\x00l\x00d\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00 \x00C\x00o\x00n\x00s\x00e\x00r\x00v\x00a\x00t\x00o\x00r\x00y\x00 \x00 \x00 \x00P\x00l\x00a\x00y\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00 \x00 \x00\xbbC\x90\n'
+2024-07-26 18:28:07.993 INFO     B0 Message: b0
+2024-07-26 18:28:08.125 INFO     MSG: b'\r\xb0\x02B\x8b\x03\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x08\x00\x04\x00D\x00i\x00n\x00i\x00n\x00g\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00D\x00o\x00w\x00n\x00s\x00t\x00a\x00i\x00r\x00s\x00 \x00 \x00 \x00 \x00 \x00E\x00m\x00e\x00r\x00g\x00e\x00n\x00c\x00y\x00 \x00 \x00 \x00 \x00 \x00 \x00F\x00i\x00r\x00e\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\xbcC\x8d\n'
+2024-07-26 18:28:08.125 INFO     B0 Message: b0
+2024-07-26 18:28:08.255 INFO     MSG: b'\r\xb0\x02B\x8b\x04\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x0c\x00\x04\x00F\x00r\x00o\x00n\x00t\x00 \x00d\x00o\x00o\x00r\x00 \x00 \x00 \x00 \x00 \x00G\x00a\x00r\x00a\x00g\x00e\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00G\x00a\x00r\x00a\x00g\x00e\x00 \x00d\x00o\x00o\x00r\x00 \x00 \x00 \x00 \x00O\x00f\x00f\x00i\x00c\x00e\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\xbdCf\n'
+2024-07-26 18:28:08.255 INFO     B0 Message: b0
+2024-07-26 18:28:08.385 INFO     MSG: b'\r\xb0\x02B\x8b\x05\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x10\x00\x04\x00H\x00a\x00l\x00l\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00K\x00i\x00t\x00c\x00h\x00e\x00n\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00L\x00a\x00u\x00n\x00d\x00r\x00y\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00L\x00i\x00v\x00i\x00n\x00g\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00\xbeC\xc1\n'
+2024-07-26 18:28:08.385 INFO     B0 Message: b0
+2024-07-26 18:28:08.507 INFO     MSG: b'\r\xb0\x02B\x8b\x06\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x14\x00\x04\x00M\x00a\x00s\x00t\x00e\x00r\x00 \x00b\x00a\x00t\x00h\x00 \x00 \x00 \x00 \x00M\x00a\x00s\x00t\x00e\x00r\x00 \x00B\x00d\x00r\x00m\x00 \x00 \x00 \x00 \x00S\x00t\x00u\x00d\x00y\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00U\x00p\x00s\x00t\x00a\x00i\x00r\x00s\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\xbfCt\n'
+2024-07-26 18:28:08.507 INFO     B0 Message: b0
+2024-07-26 18:28:08.635 INFO     MSG: b'\r\xb0\x02B\x8b\x07\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x18\x00\x04\x00U\x00t\x00i\x00l\x00i\x00t\x00y\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00G\x00a\x00r\x00d\x00e\x00n\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00u\x00s\x00t\x00o\x00m\x00 \x001\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00u\x00s\x00t\x00o\x00m\x00 \x002\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\xc0CD\n'
+2024-07-26 18:28:08.635 INFO     B0 Message: b0
+2024-07-26 18:28:08.756 INFO     MSG: b'\r\xb0\x03Bm\xff\x08\xffhB\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x1c\x00\x03\x00C\x00u\x00s\x00t\x00o\x00m\x00 \x003\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00u\x00s\x00t\x00o\x00m\x00 \x004\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00u\x00s\x00t\x00o\x00m\x00 \x005\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\xc1Cu\n'
+2024-07-26 18:28:08.756 INFO     B0 Message: b0
+2024-07-26 18:28:08.757 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:08.757 INFO     Using generic data format decoder for data type: 10
+2024-07-26 18:28:08.757 INFO     [1;32mDecoder -> [1;36mDECODED 42 42 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='42 00', page=255, length=109, data=B0Cmd42DecodedData(data=['Loft', 'Back door', 'Cellar', 'Bathroom', 'Bedroom', 'Child room', 'Conservatory', 'Play room', 'Dining room', 'Downstairs', 'Emergency', 'Fire', 'Front door', 'Garage', 'Garage door', 'Office', 'Hall', 'Kitchen', 'Laundry room', 'Living room', 'Master bath', 'Master Bdrm', 'Study', 'Upstairs', 'Utility room', 'Garden', 'Custom 1', 'Custom 2', 'Custom 3', 'Custom 4', 'Custom 5'], length=930, config='42 00', config_str='CUSTOM_ZONE_NAMES', data_type='SPACE_PADDED_STRING_LIST'), checksum='75', verified=True)
+2024-07-26 18:28:08.757 INFO     Processing time: 0:00:00.000966
+
+2024-07-26 18:28:08.997 INFO     MSG: b'\r\xb0\x03B\x7f\xff\x08\xffz\xe9\x006\x00\x10\x00\x00\x00\n\x00\x00\x006\x000\x00 \x00.\x00,\x001\x00A\x00B\x00C\x002\x00D\x00E\x00F\x003\x00G\x00H\x00I\x004\x00J\x00K\x00L\x005\x00M\x00N\x00O\x006\x00P\x00Q\x00R\x00S\x007\x00T\x00U\x00V\x008\x00W\x00X\x00Y\x00Z\x009\x00!\x00#\x00%\x00&\x00\'\x00*\x00+\x00-\x00/\x00=\x00^\x00@\x00_\x00"\x00:\x00\xc3C \n'
+2024-07-26 18:28:08.997 INFO     B0 Message: b0
+2024-07-26 18:28:08.997 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:08.998 INFO     Using generic data format decoder for data type: 10
+2024-07-26 18:28:08.998 INFO     [1;32mDecoder -> [1;36mDECODED 42 e9 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='e9 00', page=255, length=127, data=B0Cmd42DecodedData(data=['0', '', '.', ',', '1', 'A', 'B', 'C', '2', 'D', 'E', 'F', '3', 'G', 'H', 'I', '4', 'J', 'K', 'L', '5', 'M', 'N', 'O', '6', 'P', 'Q', 'R', 'S', '7', 'T', 'U', 'V', '8', 'W', 'X', 'Y', 'Z', '9', '!', '#', '%', '&', "'", '*', '+', '-', '/', '=', '^', '@', '_', '"', ':'], length=108, config='e9 00', config_str='ACCEPTED_CHARS_UPPER', data_type='SPACE_PADDED_STRING_LIST'), checksum='20', verified=True)
+2024-07-26 18:28:08.998 INFO     Processing time: 0:00:00.001281
+
+2024-07-26 18:28:09.236 INFO     MSG: b'\r\xb0\x03B\x7f\xff\x08\xffz\xea\x006\x00\x10\x00\x00\x00\n\x00\x00\x006\x000\x00 \x00.\x00,\x001\x00a\x00b\x00c\x002\x00d\x00e\x00f\x003\x00g\x00h\x00i\x004\x00j\x00k\x00l\x005\x00m\x00n\x00o\x006\x00p\x00q\x00r\x00s\x007\x00t\x00u\x00v\x008\x00w\x00x\x00y\x00z\x009\x00!\x00#\x00%\x00&\x00\'\x00*\x00+\x00-\x00/\x00=\x00^\x00@\x00_\x00"\x00:\x00\xc4C\xda\n'
+2024-07-26 18:28:09.236 INFO     B0 Message: b0
+2024-07-26 18:28:09.236 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:09.237 INFO     Using generic data format decoder for data type: 10
+2024-07-26 18:28:09.237 INFO     [1;32mDecoder -> [1;36mDECODED 42 ea 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='ea 00', page=255, length=127, data=B0Cmd42DecodedData(data=['0', '', '.', ',', '1', 'a', 'b', 'c', '2', 'd', 'e', 'f', '3', 'g', 'h', 'i', '4', 'j', 'k', 'l', '5', 'm', 'n', 'o', '6', 'p', 'q', 'r', 's', '7', 't', 'u', 'v', '8', 'w', 'x', 'y', 'z', '9', '!', '#', '%', '&', "'", '*', '+', '-', '/', '=', '^', '@', '_', '"', ':'], length=108, config='ea 00', config_str='ACCEPTED_CHARS_LOWER', data_type='SPACE_PADDED_STRING_LIST'), checksum='da', verified=True)
+2024-07-26 18:28:09.237 INFO     Processing time: 0:00:00.000829
+
+2024-07-26 18:28:09.416 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\xe8\x00\x04\x00\xc5C\x0c\n'
+2024-07-26 18:28:09.417 INFO     B0 Message: b0
+2024-07-26 18:28:09.417 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:09.417 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:09.417 INFO     [1;32mDecoder -> [1;36mDECODED 35 e8 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='e8 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='e8 00', config_str='PANEL_LANGUAGE', data_type='INTEGER'), checksum='0c', verified=True)
+2024-07-26 18:28:09.417 INFO     Processing time: 0:00:00.000544
+
+2024-07-26 18:28:09.602 INFO     MSG: b'\r\xb0\x03v\n\xff(\x12\x05\x00\x00\x00\x00\x00\xc6C\x82\n'
+2024-07-26 18:28:09.602 INFO     B0 Message: b0
+2024-07-26 18:28:09.602 INFO     Using generic data decoder
+2024-07-26 18:28:09.602 INFO     [1;32mDecoder -> [1;36mDECODED 76:[0m B0Response(type='RESPONSE', command='76', cmd_name='UNKNOWN', params='', page=255, length=10, data=B0GenDecodedData(data=[{'type': 'WORD40', 'idx': 18, 'idx_name': 'UKN18', 'len': 5, 'data': ['00 00 00 00 00']}], length=10), checksum='82', verified=True)
+2024-07-26 18:28:09.602 INFO     Processing time: 0:00:00.000564
+
+2024-07-26 18:28:09.826 INFO     MSG: b'\r\xb0\x03X=\xffp\xff8\x04\x05\x00\x00\x01\x00\xff\x02v\x01G\x04\x00\xff\x03\x0c\x00\x00\x01\x00\x0c\x02~\x00R\x17\x00\x07\x03-\x01\x00\x01\x00\x16\x03h\x00\xa0\x16\x00\x04\x0b\x01\x00\x00\x00\x00\x0c\x07F\x00\x01\x00\x00\xff\xc7CR\n'
+2024-07-26 18:28:09.826 INFO     B0 Message: b0
+2024-07-26 18:28:09.826 INFO     Using generic data decoder
+2024-07-26 18:28:09.826 INFO     [1;32mDecoder -> [1;36mDECODED 58:[0m B0Response(type='RESPONSE', command='58', cmd_name='UNKNOWN', params='', page=255, length=61, data=B0GenDecodedData(data=[{'type': 'WORD112', 'idx': 255, 'idx_name': 'NA', 'len': 56, 'data': ['04 05 00 00 01 00 ff 02 76 01 47 04 00 ff', '03 0c 00 00 01 00 0c 02 7e 00 52 17 00 07', '03 2d 01 00 01 00 16 03 68 00 a0 16 00 04', '0b 01 00 00 00 00 0c 07 46 00 01 00 00 ff']}], length=61), checksum='52', verified=True)
+2024-07-26 18:28:09.827 INFO     Processing time: 0:00:00.000577
+
+2024-07-26 18:28:10.006 INFO     MSG: b'\r\xb0\x03\x1d\t\xff\x01\n\x04\x01\x00\x00\x00\xc8C\n\n'
+2024-07-26 18:28:10.007 INFO     B0 Message: b0
+2024-07-26 18:28:10.007 INFO     Using generic data decoder
+2024-07-26 18:28:10.007 INFO     [1;32mDecoder -> [1;36mDECODED 1d:[0m B0Response(type='RESPONSE', command='1d', cmd_name='ENROLLED', params='', page=255, length=9, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 10, 'idx_name': 'TAGS', 'len': 4, 'data': ['01', '00', '00', '00']}], length=9), checksum='0a', verified=True)
+2024-07-26 18:28:10.007 INFO     Processing time: 0:00:00.000484
+
+2024-07-26 18:28:10.265 INFO     MSG: b'\r\xb0\x02B\x8b\x01\x08\xff\x86\xa4\x00\x04\x00@\x01\x00\x00\x04\xff\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc9C\xf1\n'
+2024-07-26 18:28:10.265 INFO     B0 Message: b0
+2024-07-26 18:28:10.355 INFO     MSG: b'\r\xb0\x03B;\xff\x08\xff6\xa4\x00\x04\x00@\x01\x00\x00\x04\xff\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xcaC\x90\n'
+2024-07-26 18:28:10.356 INFO     B0 Message: b0
+2024-07-26 18:28:10.356 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:10.356 INFO     Using format decoder: m42_a4_00_decoder
+2024-07-26 18:28:10.356 INFO     [1;32mDecoder -> [1;36mDECODED 42 a4 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='a4 00', page=255, length=59, data=B0Cmd42DecodedData(data=['', '', '', ''], length=160, config='a4 00', config_str='EMAIL_ADDRESSES', data_type='INTEGER'), checksum='90', verified=True)
+2024-07-26 18:28:10.356 INFO     Processing time: 0:00:00.000742
+
+2024-07-26 18:28:10.443 INFO     MSG: b'\r\xb0\x03B3\xff\x08\xff.\xa5\x00\x04\x00@\x00\x00\x00\x04\xff\x00\x00\x04\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xcbC\x9f\n'
+2024-07-26 18:28:10.443 INFO     B0 Message: b0
+2024-07-26 18:28:10.443 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:10.443 INFO     Using format decoder: m42_a5_00_decoder
+2024-07-26 18:28:10.443 INFO     [1;32mDecoder -> [1;36mDECODED 42 a5 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='a5 00', page=255, length=51, data=B0Cmd42DecodedData(data=['', '', '', ''], length=32, config='a5 00', config_str='PHONE_NUMBERS', data_type='INTEGER'), checksum='9f', verified=True)
+2024-07-26 18:28:10.443 INFO     Processing time: 0:00:00.000547
+
+2024-07-26 18:28:10.523 INFO     MSG: b'\r\xb0\x03B\x17\xff\x08\xff\x12\x18\x01\x04\x00\x08\x00\x00\x00\x04\xff\x00\x00\x04\x00\x00\x00\x00\x00\xccC\x9b\n'
+2024-07-26 18:28:10.523 INFO     B0 Message: b0
+2024-07-26 18:28:10.523 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:10.523 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:10.523 INFO     [1;32mDecoder -> [1;36mDECODED 42 18 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='18 01', page=255, length=23, data=B0Cmd42DecodedData(data=[0, 0, 0, 0], length=4, config='18 01', config_str='EMAIL_REPORTED_EVENTS', data_type='INTEGER'), checksum='9b', verified=True)
+2024-07-26 18:28:10.523 INFO     Processing time: 0:00:00.000517
+
+2024-07-26 18:28:10.603 INFO     MSG: b'\r\xb0\x03B\x17\xff\x08\xff\x12\x19\x01\x04\x00\x08\x00\x00\x00\x04\xff\x00\x00\x04\x00\x00\x00\x00\x00\xcdC\x99\n'
+2024-07-26 18:28:10.603 INFO     B0 Message: b0
+2024-07-26 18:28:10.603 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:10.603 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:10.603 INFO     [1;32mDecoder -> [1;36mDECODED 42 19 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='19 01', page=255, length=23, data=B0Cmd42DecodedData(data=[0, 0, 0, 0], length=4, config='19 01', config_str='SMS_REPORTED_EVENTS', data_type='INTEGER'), checksum='99', verified=True)
+2024-07-26 18:28:10.603 INFO     Processing time: 0:00:00.000549
+
+2024-07-26 18:28:10.795 INFO     MSG: b'\r\xb0\x03B#\xff\x08\xff\x1e\x1e\x01\x02\x00\x80\x00\x00\x00\x05\x10\x01\x00\x01\x00\x04~~O\x98\x80\n$\x00\xc8 \x00\x00\x00\xc0\x00\xceC\xb4\n'
+2024-07-26 18:28:10.795 INFO     B0 Message: b0
+2024-07-26 18:28:10.795 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:10.795 INFO     Using generic data format decoder for data type: 5
+2024-07-26 18:28:10.795 INFO     [1;32mDecoder -> [1;36mDECODED 42 1e 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='1e 01', page=255, length=35, data=B0Cmd42DecodedData(data='04 7e 7e 4f 98 80 0a 24 00 c8 20 00 00 00 c0 00', length=16, config='1e 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='b4', verified=True)
+2024-07-26 18:28:10.795 INFO     Processing time: 0:00:00.000690
+
+2024-07-26 18:28:11.024 INFO     MSG: b'\r\xb0\x03B\x14\xff\x08\xff\x0f\x1f\x01\x02\x00\x08\x00\x00\x00\x05\x10\x01\x00\x01\x00\x01\xcfC\x89\n'
+2024-07-26 18:28:11.025 INFO     B0 Message: b0
+2024-07-26 18:28:11.025 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:11.025 INFO     Using generic data format decoder for data type: 5
+2024-07-26 18:28:11.025 INFO     [1;32mDecoder -> [1;36mDECODED 42 1f 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='1f 01', page=255, length=20, data=B0Cmd42DecodedData(data='01', length=1, config='1f 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='89', verified=True)
+2024-07-26 18:28:11.025 INFO     Processing time: 0:00:00.000535
+
+2024-07-26 18:28:11.070 INFO     MSG: b'\r\x06\xf9\n'
+2024-07-26 18:28:11.070 INFO     [1;32mDecoder -> [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+2024-07-26 18:28:11.070 INFO     Processing time: 0:00:00.000317
+
+2024-07-26 18:28:11.291 INFO     MSG: b'\r\xb0\x035\'\xff\x08\xff"\xa3\x01\x05\x00\x00\x00\x00\x80\x00\x00 \x00\x00\x00\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd0C\xe6\n'
+2024-07-26 18:28:11.291 INFO     B0 Message: b0
+2024-07-26 18:28:11.291 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:11.291 INFO     Using generic data format decoder for data type: 5
+2024-07-26 18:28:11.291 INFO     [1;32mDecoder -> [1;36mDECODED 35 a3 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='a3 01', page=255, length=39, data=B0Cmd35DecodedData(data='00 00 00 00 80 00 00 20 00 00 00 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', length=31, config='a3 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='e6', verified=True)
+2024-07-26 18:28:11.291 INFO     Processing time: 0:00:00.000552
+
+2024-07-26 18:28:11.475 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\xa2\x01\x04\x01\xd1CD\n'
+2024-07-26 18:28:11.476 INFO     B0 Message: b0
+2024-07-26 18:28:11.476 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:11.476 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:11.476 INFO     [1;32mDecoder -> [1;36mDECODED 35 a2 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='a2 01', page=255, length=9, data=B0Cmd35DecodedData(data=1, length=1, config='a2 01', config_str='Unknown', data_type='INTEGER'), checksum='44', verified=True)
+2024-07-26 18:28:11.476 INFO     Processing time: 0:00:00.000563
+
+2024-07-26 18:28:11.664 INFO     MSG: b'\r\xb0\x03B\x14\xff\x08\xff\x0f\x85\x01\x02\x00\x08\x00\x00\x00\x04\x10\x01\x00\x01\x00\x00\xd2C"\n'
+2024-07-26 18:28:11.664 INFO     B0 Message: b0
+2024-07-26 18:28:11.664 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:11.664 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:11.664 INFO     [1;32mDecoder -> [1;36mDECODED 42 85 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='85 01', page=255, length=20, data=B0Cmd42DecodedData(data=0, length=1, config='85 01', config_str='SSL_FOR_IPMP', data_type='INTEGER'), checksum='22', verified=True)
+2024-07-26 18:28:11.664 INFO     Processing time: 0:00:00.000570
+
+2024-07-26 18:28:11.882 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04X\x00\x04\x1e\xd3Cp\n'
+2024-07-26 18:28:11.882 INFO     B0 Message: b0
+2024-07-26 18:28:11.882 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:11.882 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:11.882 INFO     [1;32mDecoder -> [1;36mDECODED 35 58 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='58 00', page=255, length=9, data=B0Cmd35DecodedData(data=30, length=1, config='58 00', config_str='EXIT_DELAY', data_type='INTEGER'), checksum='70', verified=True)
+2024-07-26 18:28:11.882 INFO     Processing time: 0:00:00.000569
+
+2024-07-26 18:28:12.081 INFO     MSG: b'\r\xb0\x03T\x05\xffH\xff\x00\xd4C\x92\n'
+2024-07-26 18:28:12.081 INFO     B0 Message: b0
+2024-07-26 18:28:12.081 INFO     Using generic data decoder
+2024-07-26 18:28:12.081 INFO     [1;32mDecoder -> [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='92', verified=True)
+2024-07-26 18:28:12.081 INFO     Processing time: 0:00:00.000445
+
+2024-07-26 18:28:12.303 INFO     MSG: b'\r\xb0\x03\x0c\x1f\xff\x01\x00\x01\x00\xff\x01\x02\x01\x00\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\xff\x01\x04\x04\x00\x00\x00\x00\xd5C\xec\n'
+2024-07-26 18:28:12.303 INFO     B0 Message: b0
+2024-07-26 18:28:12.303 INFO     Using generic data decoder
+2024-07-26 18:28:12.303 INFO     [1;32mDecoder -> [1;36mDECODED 0c:[0m B0Response(type='RESPONSE', command='0c', cmd_name='UNKNOWN', params='', page=255, length=31, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 0, 'idx_name': 'REPEATERS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 2, 'idx_name': 'SIRENS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}, {'type': 'BITS', 'idx': 4, 'idx_name': 'KEYPADS', 'len': 4, 'data': ['00', '00', '00', '00']}], length=31), checksum='ec', verified=True)
+2024-07-26 18:28:12.303 INFO     Processing time: 0:00:00.000568
+
+2024-07-26 18:28:12.492 INFO     MSG: b'\r\xb0\x03\x0e%\xff\x01\x00\x01\x00\xff\x01\x01\x02\x00\x00\xff\x01\x02\x01\x00\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\xff\x01\x04\x04\x00\x00\x00\x00\xd6C\xdf\n'
+2024-07-26 18:28:12.492 INFO     B0 Message: b0
+2024-07-26 18:28:12.492 INFO     Using generic data decoder
+2024-07-26 18:28:12.492 INFO     [1;32mDecoder -> [1;36mDECODED 0e:[0m B0Response(type='RESPONSE', command='0e', cmd_name='UNKNOWN', params='', page=255, length=37, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 0, 'idx_name': 'REPEATERS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 1, 'idx_name': 'X10', 'len': 2, 'data': ['00', '00']}, {'type': 'BITS', 'idx': 2, 'idx_name': 'SIRENS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}, {'type': 'BITS', 'idx': 4, 'idx_name': 'KEYPADS', 'len': 4, 'data': ['00', '00', '00', '00']}], length=37), checksum='df', verified=True)
+2024-07-26 18:28:12.492 INFO     Processing time: 0:00:00.000551
+
+2024-07-26 18:28:12.709 INFO     MSG: b'\r\xb0\x03\x19\r\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\xd7C\xfe\n'
+2024-07-26 18:28:12.709 INFO     B0 Message: b0
+2024-07-26 18:28:12.709 INFO     Using generic data decoder
+2024-07-26 18:28:12.710 INFO     [1;32mDecoder -> [1;36mDECODED 19:[0m B0Response(type='RESPONSE', command='19', cmd_name='BYPASSES', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='fe', verified=True)
+2024-07-26 18:28:12.710 INFO     Processing time: 0:00:00.000668
+
+2024-07-26 18:28:12.826 INFO     MSG: b'\r\xb0\x03Q\x06\xff\x08\xff\x01$\xd8C\xab\n'
+2024-07-26 18:28:12.826 INFO     B0 Message: b0
+2024-07-26 18:28:12.827 INFO     Using b0_51_data_decoder
+2024-07-26 18:28:12.827 INFO     [1;32mDecoder -> [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=6, data=B0DecodedData(data=['24']), checksum='ab', verified=True)
+2024-07-26 18:28:12.827 INFO     Processing time: 0:00:00.000434
+
+2024-07-26 18:28:12.893 INFO     MSG: b'\r\xb0\x03$\x1a\xff\x08\xff\x15\x02\x00\x00\x00\x00\x00\x00\x00\x1b\x1b\x12\x1a\x07\x18\x14\x06\x01\x00\x81\x00\x00\xd9C\xb3\n'
+2024-07-26 18:28:12.893 INFO     B0 Message: b0
+2024-07-26 18:28:12.893 INFO     Using b0_24_data_decoder
+2024-07-26 18:28:12.893 INFO     [1;32mDecoder -> [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:27:27', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='b3', verified=True)
+2024-07-26 18:28:12.893 INFO     Processing time: 0:00:00.000561
+
+2024-07-26 18:28:13.079 INFO     MSG: b"\r\xb0\x03'\r\xff\x01\x07\x02\x00\x00\xff\x01\x0b\x02\x00\x00\xdaC\xe1\n"
+2024-07-26 18:28:13.079 INFO     B0 Message: b0
+2024-07-26 18:28:13.079 INFO     Using generic data decoder
+2024-07-26 18:28:13.079 INFO     [1;32mDecoder -> [1;36mDECODED 27:[0m B0Response(type='RESPONSE', command='27', cmd_name='CAMERA_SOMETING', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 7, 'idx_name': 'CAMERASA', 'len': 2, 'data': ['00', '00']}, {'type': 'BITS', 'idx': 11, 'idx_name': 'CAMERASB', 'len': 2, 'data': ['00', '00']}], length=13), checksum='e1', verified=True)
+2024-07-26 18:28:13.079 INFO     Processing time: 0:00:00.000482
+
+2024-07-26 18:28:13.312 INFO     MSG: b'\r\xb0\x03K\x9b\xff(\x03\x96\xcf\xe9\xa3f\x04a\xea\xa3f\x02A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00\xdbC9\n'
+2024-07-26 18:28:13.312 INFO     B0 Message: b0
+2024-07-26 18:28:13.312 INFO     Using b0_4b_data_decoder
+2024-07-26 18:28:13.313 INFO     [1;32mDecoder -> [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:26:41', 'code': 'CLOSED'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='39', verified=True)
+2024-07-26 18:28:13.313 INFO     Processing time: 0:00:00.001019
+
+2024-07-26 18:28:13.503 INFO     MSG: b'\r\xb0\x03N\r\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\xdcC\xc4\n'
+2024-07-26 18:28:13.503 INFO     B0 Message: b0
+2024-07-26 18:28:13.503 INFO     Using generic data decoder
+2024-07-26 18:28:13.504 INFO     [1;32mDecoder -> [1;36mDECODED 4e:[0m B0Response(type='RESPONSE', command='4e', cmd_name='ZONE4E', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='c4', verified=True)
+2024-07-26 18:28:13.504 INFO     Processing time: 0:00:00.000462
+
+2024-07-26 18:28:13.686 INFO     MSG: b'\r\xb0\x03O\r\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\xddC\xc2\n'
+2024-07-26 18:28:13.686 INFO     B0 Message: b0
+2024-07-26 18:28:13.686 INFO     Using generic data decoder
+2024-07-26 18:28:13.686 INFO     [1;32mDecoder -> [1;36mDECODED 4f:[0m B0Response(type='RESPONSE', command='4f', cmd_name='ZONE4F', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='c2', verified=True)
+2024-07-26 18:28:13.686 INFO     Processing time: 0:00:00.000449
+
+2024-07-26 18:28:13.887 INFO     MSG: b'\r\xb0\x03v\n\xff(\x12\x05\x00\x00\x00\x00\x00\xdeCj\n'
+2024-07-26 18:28:13.887 INFO     B0 Message: b0
+2024-07-26 18:28:13.887 INFO     Using generic data decoder
+2024-07-26 18:28:13.887 INFO     [1;32mDecoder -> [1;36mDECODED 76:[0m B0Response(type='RESPONSE', command='76', cmd_name='UNKNOWN', params='', page=255, length=10, data=B0GenDecodedData(data=[{'type': 'WORD40', 'idx': 18, 'idx_name': 'UKN18', 'len': 5, 'data': ['00 00 00 00 00']}], length=10), checksum='6a', verified=True)
+2024-07-26 18:28:13.887 INFO     Processing time: 0:00:00.000475
+
+2024-07-26 18:28:14.006 INFO     MSG: b'\r\xb0\x03+-\xff\x10\xff(1\x08Q\x06\x01\x08\x01\x00\x01\x07\x01\x05\x01\x05Q\x08v\x08x\x08\x01\x05Q\x08\x00\x00y\x08\x00\x00\x00\x00\x00\x00\x00\x00\x80\x08\x81\x08\xdfC\x9e\n'
+2024-07-26 18:28:14.006 INFO     B0 Message: b0
+2024-07-26 18:28:14.006 INFO     Using generic data decoder
+2024-07-26 18:28:14.006 INFO     [1;32mDecoder -> [1;36mDECODED 2b:[0m B0Response(type='RESPONSE', command='2b', cmd_name='UNKNOWN2B', params='', page=255, length=45, data=B0GenDecodedData(data=[{'type': 'WORD16', 'idx': 255, 'idx_name': 'NA', 'len': 40, 'data': ['31 08', '51 06', '01 08', '01 00', '01 07', '01 05', '01 05', '51 08', '76 08', '78 08', '01 05', '51 08', '00 00', '79 08', '00 00', '00 00', '00 00', '00 00', '80 08', '81 08']}], length=45), checksum='9e', verified=True)
+2024-07-26 18:28:14.006 INFO     Processing time: 0:00:00.000475
+
+2024-07-26 18:28:14.187 INFO     MSG: b'\r\xb0\x03"/\xff\x10\xff*\x08\x00\x0f\x00\x08\x00@\x00 \x00 \x000\x00\x00\x00\x01\x00\x01\x00 \x00\x10\x00\x01\x00\x01\x00\x03\x00\x01\x00\x0f\x00\xe8\x03\x00\x00\x1f\x00\n\x00\xe0Cp\n'
+2024-07-26 18:28:14.187 INFO     B0 Message: b0
+2024-07-26 18:28:14.187 INFO     Using b0_22_data_decoder
+2024-07-26 18:28:14.187 INFO     [1;32mDecoder -> [1;36mDECODED 22:[0m B0Response(type='RESPONSE', command='22', cmd_name='SYSTEM_CAPABILITIES', params='', page=255, length=47, data=B0DecodedData(data={'REPEATERS': 8, 'X10': 15, 'SIRENS': 8, 'ZONES': 64, 'KEYPADS': 32, 'KEYFOBS': 32, 'USERCODES': 48, 'CAMERASA': 0, 'UNK8': 1, 'POWERLINK': 1, 'TAGS': 32, 'CAMERASB': 16, 'PANEL': 1, 'UNK13': 1, 'PARTITIONS': 3, 'UNK15': 1, 'UNK16': 15, 'EVENTS': 1000, 'UKN18': 0, 'UNK19': 31, 'UNK20': 10}), checksum='70', verified=True)
+2024-07-26 18:28:14.187 INFO     Processing time: 0:00:00.000509
+
+2024-07-26 18:28:14.396 INFO     MSG: b'\r\xb0\x035\x0b\xff\x08\xff\x06\x01\x00\x01\x00\x124\xe1C\x90\n'
+2024-07-26 18:28:14.396 INFO     B0 Message: b0
+2024-07-26 18:28:14.396 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:14.397 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:14.397 INFO     [1;32mDecoder -> [1;36mDECODED 35 01 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='01 00', page=255, length=11, data=B0Cmd35DecodedData(data='001234', length=3, config='01 00', config_str='COMMS_CS_REC2_ACCT', data_type='DIRECT_MAP_STRING'), checksum='90', verified=True)
+2024-07-26 18:28:14.397 INFO     Processing time: 0:00:00.000500
+
+2024-07-26 18:28:14.503 INFO     MSG: b'\r\xb0\x0350\xff\x08\xff+\x07\x00\x04\x04\x00\x0f\x00\x04\x00\x1e\x00\x08\x00\x08\x00\x08\x00\x00\x00\x01\x00\x01\x00\x08\x00\x10\x00\x01\x00\x01\x00\xfa\x00\x03\x00\x00\x00\x1f\x00\x00\x00\x00\x00\xe2C\xfb\n'
+2024-07-26 18:28:14.503 INFO     B0 Message: b0
+2024-07-26 18:28:14.503 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:14.503 INFO     Using format decoder: m35_07_00_decoder
+2024-07-26 18:28:14.504 INFO     [1;32mDecoder -> [1;36mDECODED 35 07 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='07 00', page=255, length=48, data=B0Cmd35DecodedData(data={'REPEATERS': 4, 'X10': 15, 'SIRENS': 4, 'ZONES': 30, 'KEYPADS': 8, 'KEYFOBS': 8, 'USERCODES': 8, 'CAMERASA': 0, 'UNK8': 1, 'POWERLINK': 1, 'TAGS': 8, 'CAMERASB': 16, 'PANEL': 1, 'UNK13': 1, 'EVENTS': 250, 'PARTITIONS': 3, 'UNK16': 0, 'UNK17': 31, 'UKN18': 0, 'UNK19': 0}, length=40, config='07 00', config_str='CAPABILITIES', data_type='INTEGER'), checksum='fb', verified=True)
+2024-07-26 18:28:14.504 INFO     Processing time: 0:00:00.001133
+
+2024-07-26 18:28:14.585 INFO     MSG: b'\r\xb0\x035\x10\xff\x08\xff\x0b\x0e\x00\x01\xff\xff\xff\xff\xff\xff\xff\xff\xe3C\xbd\n'
+2024-07-26 18:28:14.585 INFO     B0 Message: b0
+2024-07-26 18:28:14.585 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:14.585 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:14.585 INFO     [1;32mDecoder -> [1;36mDECODED 35 0e 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='0e 00', page=255, length=16, data=B0Cmd35DecodedData(data='ffffffffffffffff', length=8, config='0e 00', config_str='Unknown', data_type='DIRECT_MAP_STRING'), checksum='bd', verified=True)
+2024-07-26 18:28:14.585 INFO     Processing time: 0:00:00.000531
+
+2024-07-26 18:28:14.656 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\x10\x00\x04\x00\xe4C\xc5\n'
+2024-07-26 18:28:14.656 INFO     B0 Message: b0
+2024-07-26 18:28:14.656 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:14.656 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:14.656 INFO     [1;32mDecoder -> [1;36mDECODED 35 10 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='10 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='10 00', config_str='Unknown', data_type='INTEGER'), checksum='c5', verified=True)
+2024-07-26 18:28:14.656 INFO     Processing time: 0:00:00.000715
+
+2024-07-26 18:28:14.731 INFO     MSG: b'\r\xb0\x035\n\xff\x08\xff\x05$\x00\x04\xae\x07\xe5C\xf8\n'
+2024-07-26 18:28:14.731 INFO     B0 Message: b0
+2024-07-26 18:28:14.731 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:14.731 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:14.731 INFO     [1;32mDecoder -> [1;36mDECODED 35 24 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='24 00', page=255, length=10, data=B0Cmd35DecodedData(data=[174, 7], length=2, config='24 00', config_str='PANEL_EPROM_VERSION', data_type='INTEGER'), checksum='f8', verified=True)
+2024-07-26 18:28:14.731 INFO     Processing time: 0:00:00.000548
+
+2024-07-26 18:28:14.808 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04)\x00\x04\x04\xe6C\xa6\n'
+2024-07-26 18:28:14.808 INFO     B0 Message: b0
+2024-07-26 18:28:14.808 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:14.808 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:14.808 INFO     [1;32mDecoder -> [1;36mDECODED 35 29 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='29 00', page=255, length=9, data=B0Cmd35DecodedData(data=4, length=1, config='29 00', config_str='Unknown', data_type='INTEGER'), checksum='a6', verified=True)
+2024-07-26 18:28:14.808 INFO     Processing time: 0:00:00.000578
+
+2024-07-26 18:28:14.905 INFO     MSG: b'\r\xb0\x035\x18\xff\x08\xff\x13,\x00\x06J-703883 I20.214\xe7C?\n'
+2024-07-26 18:28:14.905 INFO     B0 Message: b0
+2024-07-26 18:28:14.906 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:14.906 INFO     Using generic data format decoder for data type: 6
+2024-07-26 18:28:14.906 INFO     [1;32mDecoder -> [1;36mDECODED 35 2c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='2c 00', page=255, length=24, data=B0Cmd35DecodedData(data='J-703883 I20.214', length=16, config='2c 00', config_str='PANEL_DEFAULT_VERSION', data_type='STRING'), checksum='3f', verified=True)
+2024-07-26 18:28:14.906 INFO     Processing time: 0:00:00.000541
+
+2024-07-26 18:28:14.999 INFO     MSG: b'\r\xb0\x035\x18\xff\x08\xff\x13-\x00\x06JS703642 I20.214\xe8C\x1e\n'
+2024-07-26 18:28:14.999 INFO     B0 Message: b0
+2024-07-26 18:28:14.999 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:14.999 INFO     Using generic data format decoder for data type: 6
+2024-07-26 18:28:14.999 INFO     [1;32mDecoder -> [1;36mDECODED 35 2d 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='2d 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS703642 I20.214', length=16, config='2d 00', config_str='PANEL_SOFTWARE_VERSION', data_type='STRING'), checksum='1e', verified=True)
+2024-07-26 18:28:14.999 INFO     Processing time: 0:00:00.000515
+
+2024-07-26 18:28:15.086 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x040\x00\x04\x00\xe9C\xa0\n'
+2024-07-26 18:28:15.086 INFO     B0 Message: b0
+2024-07-26 18:28:15.086 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:15.086 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:15.086 INFO     [1;32mDecoder -> [1;36mDECODED 35 30 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='30 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='30 00', config_str='PARTITIONS_ENABLED', data_type='INTEGER'), checksum='a0', verified=True)
+2024-07-26 18:28:15.086 INFO     Processing time: 0:00:00.000557
+
+2024-07-26 18:28:15.165 INFO     MSG: b'\r\xb0\x035\x17\xff\x08\xff\x12<\x00\x08PowerMaster-10 \xeaCG\n'
+2024-07-26 18:28:15.166 INFO     B0 Message: b0
+2024-07-26 18:28:15.166 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:15.166 INFO     Using generic data format decoder for data type: 8
+2024-07-26 18:28:15.166 INFO     [1;32mDecoder -> [1;36mDECODED 35 3c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3c 00', page=255, length=23, data=B0Cmd35DecodedData(data='PowerMaster-10', length=15, config='3c 00', config_str='PANEL_HARDWARE_VERSION', data_type='SPACE_PADDED_STRING'), checksum='47', verified=True)
+2024-07-26 18:28:15.166 INFO     Processing time: 0:00:00.000544
+
+2024-07-26 18:28:15.250 INFO     MSG: b'\r\xb0\x035\x18\xff\x08\xff\x13=\x00\x06JS702414 I02.036\xebC\r\n'
+2024-07-26 18:28:15.250 INFO     B0 Message: b0
+2024-07-26 18:28:15.251 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:15.251 INFO     Using generic data format decoder for data type: 6
+2024-07-26 18:28:15.251 INFO     [1;32mDecoder -> [1;36mDECODED 35 3d 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3d 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS702414 I02.036', length=16, config='3d 00', config_str='PANEL_RSU_VERSION', data_type='STRING'), checksum='0d', verified=True)
+2024-07-26 18:28:15.251 INFO     Processing time: 0:00:00.000542
+
+2024-07-26 18:28:15.329 INFO     MSG: b'\r\xb0\x035\x18\xff\x08\xff\x13>\x00\x06JS702413 I01.033\xecC\x10\n'
+2024-07-26 18:28:15.329 INFO     B0 Message: b0
+2024-07-26 18:28:15.329 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:15.329 INFO     Using generic data format decoder for data type: 6
+2024-07-26 18:28:15.329 INFO     [1;32mDecoder -> [1;36mDECODED 35 3e 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3e 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS702413 I01.033', length=16, config='3e 00', config_str='PANEL_BOOT_VERSION', data_type='STRING'), checksum='10', verified=True)
+2024-07-26 18:28:15.329 INFO     Processing time: 0:00:00.000547
+
+2024-07-26 18:28:15.424 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04[\x00\x04\xa0\xedC\xd0\n'
+2024-07-26 18:28:15.424 INFO     B0 Message: b0
+2024-07-26 18:28:15.424 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:15.424 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:15.424 INFO     [1;32mDecoder -> [1;36mDECODED 35 5b 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='5b 00', page=255, length=9, data=B0Cmd35DecodedData(data=160, length=1, config='5b 00', config_str='BYPASS_ARM', data_type='INTEGER'), checksum='d0', verified=True)
+2024-07-26 18:28:15.424 INFO     Processing time: 0:00:00.000560
+
+2024-07-26 18:28:15.905 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\\\x00\x04\xa1\xeeC\xcd\n'
+2024-07-26 18:28:15.905 INFO     B0 Message: b0
+2024-07-26 18:28:15.905 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:15.905 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:15.905 INFO     [1;32mDecoder -> [1;36mDECODED 35 5c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='5c 00', page=255, length=9, data=B0Cmd35DecodedData(data=161, length=1, config='5c 00', config_str='Unknown', data_type='INTEGER'), checksum='cd', verified=True)
+2024-07-26 18:28:15.905 INFO     Processing time: 0:00:00.000778
+
+2024-07-26 18:28:16.163 INFO     MSG: b'\r\xb0\x03V\x0c\xff\x08\xff\x07\x03\x00\x02\x00\x06\x00\x00\xf1C\x9a\n'
+2024-07-26 18:28:16.164 INFO     B0 Message: b0
+2024-07-26 18:28:16.164 INFO     Using generic data decoder
+2024-07-26 18:28:16.164 INFO     [1;32mDecoder -> [1;36mDECODED 56:[0m B0Response(type='RESPONSE', command='56', cmd_name='UNKNOWN', params='', page=255, length=12, data=B0GenDecodedData(data=[{'type': 'BYTES', 'idx': 255, 'idx_name': 'NA', 'len': 7, 'data': ['03', '00', '02', '00', '06', '00', '00']}], length=12), checksum='9a', verified=True)
+2024-07-26 18:28:16.164 INFO     Processing time: 0:00:00.000645
+
+2024-07-26 18:28:16.444 INFO     MSG: b'\r<\xfd\n\x00\x00\xae\x07\x01\x00\x00\x00\x05\n'
+2024-07-26 18:28:16.445 INFO     [1;32mDecoder -> [1;36mDECODED 3c:[0m STDMessage(command='3c', command_str='EPROM_INFO', data='fd 0a 00 00 ae 07 01 00 00 00', checksum='05', verified=True)
+2024-07-26 18:28:16.445 INFO     Processing time: 0:00:00.000304
+
+2024-07-26 18:28:16.803 INFO     MSG: b'\r?\xe0\x01\x01\x02\xdb\n'
+2024-07-26 18:28:16.803 INFO     [1;32mDecoder -> [1;36mDECODED 3f:[0m STDMessage(command='3f', command_str='CONFIG_VALUE', data='e0 01 01 02', checksum='db', verified=True)
+2024-07-26 18:28:16.803 INFO     Processing time: 0:00:00.000317
+
+2024-07-26 18:28:16.894 INFO     MSG: b'\r\xb0\x03Q\x06\xff\x08\xff\x01$\xf4C\x8f\n'
+2024-07-26 18:28:16.894 INFO     B0 Message: b0
+2024-07-26 18:28:16.894 INFO     Using b0_51_data_decoder
+2024-07-26 18:28:16.895 INFO     [1;32mDecoder -> [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=6, data=B0DecodedData(data=['24']), checksum='8f', verified=True)
+2024-07-26 18:28:16.895 INFO     Processing time: 0:00:00.000640
+
+2024-07-26 18:28:17.173 INFO     MSG: b'\r\xb0\x035\x0e\xff\x08\xff\t\x03\x00\x01\x05 X\x10Q\x81\xf6CY\n'
+2024-07-26 18:28:17.173 INFO     B0 Message: b0
+2024-07-26 18:28:17.173 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:17.173 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:17.173 INFO     [1;32mDecoder -> [1;36mDECODED 35 03 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='03 00', page=255, length=14, data=B0Cmd35DecodedData(data='052058105181', length=6, config='03 00', config_str='COMMS_CS_REC1_IP', data_type='DIRECT_MAP_STRING'), checksum='59', verified=True)
+2024-07-26 18:28:17.173 INFO     Processing time: 0:00:00.000522
+
+2024-07-26 18:28:17.392 INFO     MSG: b'\r\xb0\x035\x0e\xff\x08\xff\t\x05\x00\x01\x19!h \x00T\xf7C\x9f\n'
+2024-07-26 18:28:17.392 INFO     B0 Message: b0
+2024-07-26 18:28:17.392 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:17.392 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:17.392 INFO     [1;32mDecoder -> [1;36mDECODED 35 05 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='05 00', page=255, length=14, data=B0Cmd35DecodedData(data='192168200054', length=6, config='05 00', config_str='COMMS_CS_REC2_IP', data_type='DIRECT_MAP_STRING'), checksum='9f', verified=True)
+2024-07-26 18:28:17.392 INFO     Processing time: 0:00:00.000505
+
+2024-07-26 18:28:17.572 INFO     MSG: b'\r\xb0\x035\x0b\xff\x08\xff\x06\x8a\x00\x04\x02\x00\x00\xf8C1\n'
+2024-07-26 18:28:17.572 INFO     B0 Message: b0
+2024-07-26 18:28:17.572 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:17.572 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:17.572 INFO     [1;32mDecoder -> [1;36mDECODED 35 8a 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='8a 00', page=255, length=11, data=B0Cmd35DecodedData(data=[2, 0, 0], length=3, config='8a 00', config_str='Unknown', data_type='INTEGER'), checksum='31', verified=True)
+2024-07-26 18:28:17.572 INFO     Processing time: 0:00:00.000563
+
+2024-07-26 18:28:17.792 INFO     MSG: b'\r\xb0\x035h\xff\x08\xffc\x08\x00\x01\x11\x11\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf9C\xda\n'
+2024-07-26 18:28:17.792 INFO     B0 Message: b0
+2024-07-26 18:28:17.792 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:17.793 INFO     Using format decoder: m35_08_00_decoder
+2024-07-26 18:28:17.793 INFO     [1;32mDecoder -> [1;36mDECODED 35 08 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='08 00', page=255, length=104, data=B0Cmd35DecodedData(data={1: '1111'}, length=96, config='08 00', config_str='USER_CODES', data_type='DIRECT_MAP_STRING'), checksum='da', verified=True)
+2024-07-26 18:28:17.793 INFO     Processing time: 0:00:00.000570
+
+2024-07-26 18:28:17.997 INFO     MSG: b'\r\xb0\x03B\x1b\xff\x08\xff\x16\xe2\x00\x08\x00\x08\x00\x00\x00\x04\x1e\x00\x00\x08\x00\x07\x01\x01\x01\x01\x01\x01\x01\xfaCg\n'
+2024-07-26 18:28:17.998 INFO     B0 Message: b0
+2024-07-26 18:28:17.998 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:17.998 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:17.998 INFO     [1;32mDecoder -> [1;36mDECODED 42 e2 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='e2 00', page=255, length=27, data=B0Cmd42DecodedData(data=[7, 1, 1, 1, 1, 1, 1, 1], length=8, config='e2 00', config_str='USER_PARTITION_ACCESS', data_type='INTEGER'), checksum='67', verified=True)
+2024-07-26 18:28:17.998 INFO     Processing time: 0:00:00.000562
+
+2024-07-26 18:28:18.197 INFO     MSG: b'\r\xb0\x035\n\xff\x08\xff\x05\x0f\x00\x01\xaa\xaa\xfbC[\n'
+2024-07-26 18:28:18.197 INFO     B0 Message: b0
+2024-07-26 18:28:18.198 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:18.198 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:18.198 INFO     [1;32mDecoder -> [1;36mDECODED 35 0f 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='0f 00', page=255, length=10, data=B0Cmd35DecodedData(data='aaaa', length=2, config='0f 00', config_str='DOWNLOAD_CODE', data_type='DIRECT_MAP_STRING'), checksum='5b', verified=True)
+2024-07-26 18:28:18.198 INFO     Processing time: 0:00:00.000713
+
+2024-07-26 18:28:18.275 INFO     MSG: b'\r\xb0\x035\n\xff\x08\xff\x05T\x00\x01\x88\x88\xfcCY\n'
+2024-07-26 18:28:18.276 INFO     B0 Message: b0
+2024-07-26 18:28:18.276 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:18.276 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:18.276 INFO     [1;32mDecoder -> [1;36mDECODED 35 54 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='54 00', page=255, length=10, data=B0Cmd35DecodedData(data='8888', length=2, config='54 00', config_str='INSTALLER_CODE', data_type='DIRECT_MAP_STRING'), checksum='59', verified=True)
+2024-07-26 18:28:18.276 INFO     Processing time: 0:00:00.000632
+
+2024-07-26 18:28:18.358 INFO     MSG: b'\r\xb0\x035\n\xff\x08\xff\x05U\x00\x01\x99\x99\xfdC5\n'
+2024-07-26 18:28:18.359 INFO     B0 Message: b0
+2024-07-26 18:28:18.359 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:18.359 INFO     Using generic data format decoder for data type: 1
+2024-07-26 18:28:18.359 INFO     [1;32mDecoder -> [1;36mDECODED 35 55 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='55 00', page=255, length=10, data=B0Cmd35DecodedData(data='9999', length=2, config='55 00', config_str='MASTER_CODE', data_type='DIRECT_MAP_STRING'), checksum='35', verified=True)
+2024-07-26 18:28:18.359 INFO     Processing time: 0:00:00.000557
+
+2024-07-26 18:28:18.435 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\x06\x01\x04\x00\xfeC\xb4\n'
+2024-07-26 18:28:18.435 INFO     B0 Message: b0
+2024-07-26 18:28:18.435 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:18.435 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:18.436 INFO     [1;32mDecoder -> [1;36mDECODED 35 06 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='06 01', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='06 01', config_str='Unknown', data_type='INTEGER'), checksum='b4', verified=True)
+2024-07-26 18:28:18.436 INFO     Processing time: 0:00:00.000474
+
+2024-07-26 18:28:18.627 INFO     MSG: b'\r\xb0\x03B\x13\xff\x08\xff\x0e\r\x00\x00\x00\xf0\x00\x00\x00\n\x00\x00\x00\x00\x00\x01C\x94\n'
+2024-07-26 18:28:18.627 INFO     B0 Message: b0
+2024-07-26 18:28:18.628 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:18.628 INFO     Using generic data format decoder for data type: 10
+2024-07-26 18:28:18.628 INFO     [1;32mDecoder -> [1;36mDECODED 42 0d 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='0d 00', page=255, length=19, data=B0Cmd42DecodedData(data=None, length=0, config='0d 00', config_str='ZONE_NAMES', data_type='SPACE_PADDED_STRING_LIST'), checksum='94', verified=True)
+2024-07-26 18:28:18.628 INFO     Processing time: 0:00:00.000592
+
+2024-07-26 18:28:18.858 INFO     MSG: b'\r\xb0\x02B\x8b\x01\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x00\x00\x04\x00L\x00o\x00f\x00t\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00B\x00a\x00c\x00k\x00 \x00d\x00o\x00o\x00r\x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00e\x00l\x00l\x00a\x00r\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00B\x00a\x00t\x00h\x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x02C\x94\n'
+2024-07-26 18:28:18.859 INFO     B0 Message: b0
+2024-07-26 18:28:18.997 INFO     MSG: b'\r\xb0\x02B\x8b\x02\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x04\x00\x04\x00B\x00e\x00d\x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00h\x00i\x00l\x00d\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00 \x00C\x00o\x00n\x00s\x00e\x00r\x00v\x00a\x00t\x00o\x00r\x00y\x00 \x00 \x00 \x00P\x00l\x00a\x00y\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00 \x00 \x00\x03CI\n'
+2024-07-26 18:28:18.997 INFO     B0 Message: b0
+2024-07-26 18:28:19.140 INFO     MSG: b'\r\xb0\x02B\x8b\x03\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x08\x00\x04\x00D\x00i\x00n\x00i\x00n\x00g\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00D\x00o\x00w\x00n\x00s\x00t\x00a\x00i\x00r\x00s\x00 \x00 \x00 \x00 \x00 \x00E\x00m\x00e\x00r\x00g\x00e\x00n\x00c\x00y\x00 \x00 \x00 \x00 \x00 \x00 \x00F\x00i\x00r\x00e\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x04CF\n'
+2024-07-26 18:28:19.141 INFO     B0 Message: b0
+2024-07-26 18:28:19.279 INFO     MSG: b'\r\xb0\x02B\x8b\x04\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x0c\x00\x04\x00F\x00r\x00o\x00n\x00t\x00 \x00d\x00o\x00o\x00r\x00 \x00 \x00 \x00 \x00 \x00G\x00a\x00r\x00a\x00g\x00e\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00G\x00a\x00r\x00a\x00g\x00e\x00 \x00d\x00o\x00o\x00r\x00 \x00 \x00 \x00 \x00O\x00f\x00f\x00i\x00c\x00e\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x05C\x1f\n'
+2024-07-26 18:28:19.280 INFO     B0 Message: b0
+2024-07-26 18:28:19.410 INFO     MSG: b'\r\xb0\x02B\x8b\x05\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x10\x00\x04\x00H\x00a\x00l\x00l\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00K\x00i\x00t\x00c\x00h\x00e\x00n\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00L\x00a\x00u\x00n\x00d\x00r\x00y\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00L\x00i\x00v\x00i\x00n\x00g\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00 \x00\x06Cz\n'
+2024-07-26 18:28:19.410 INFO     B0 Message: b0
+2024-07-26 18:28:19.546 INFO     MSG: b'\r\xb0\x02B\x8b\x06\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x14\x00\x04\x00M\x00a\x00s\x00t\x00e\x00r\x00 \x00b\x00a\x00t\x00h\x00 \x00 \x00 \x00 \x00M\x00a\x00s\x00t\x00e\x00r\x00 \x00B\x00d\x00r\x00m\x00 \x00 \x00 \x00 \x00S\x00t\x00u\x00d\x00y\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00U\x00p\x00s\x00t\x00a\x00i\x00r\x00s\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x07C-\n'
+2024-07-26 18:28:19.546 INFO     B0 Message: b0
+2024-07-26 18:28:19.677 INFO     MSG: b'\r\xb0\x02B\x8b\x07\x08\xff\x86B\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x18\x00\x04\x00U\x00t\x00i\x00l\x00i\x00t\x00y\x00 \x00r\x00o\x00o\x00m\x00 \x00 \x00 \x00G\x00a\x00r\x00d\x00e\x00n\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00u\x00s\x00t\x00o\x00m\x00 \x001\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00u\x00s\x00t\x00o\x00m\x00 \x002\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x08C\xfc\n'
+2024-07-26 18:28:19.677 INFO     B0 Message: b0
+2024-07-26 18:28:19.795 INFO     MSG: b'\r\xb0\x03Bm\xff\x08\xffhB\x00\x1f\x00\xf0\x00\x00\x00\n\x1e\x1c\x00\x03\x00C\x00u\x00s\x00t\x00o\x00m\x00 \x003\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00u\x00s\x00t\x00o\x00m\x00 \x004\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00C\x00u\x00s\x00t\x00o\x00m\x00 \x005\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\tC.\n'
+2024-07-26 18:28:19.795 INFO     B0 Message: b0
+2024-07-26 18:28:19.795 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:19.795 INFO     Using generic data format decoder for data type: 10
+2024-07-26 18:28:19.796 INFO     [1;32mDecoder -> [1;36mDECODED 42 42 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='42 00', page=255, length=109, data=B0Cmd42DecodedData(data=['Loft', 'Back door', 'Cellar', 'Bathroom', 'Bedroom', 'Child room', 'Conservatory', 'Play room', 'Dining room', 'Downstairs', 'Emergency', 'Fire', 'Front door', 'Garage', 'Garage door', 'Office', 'Hall', 'Kitchen', 'Laundry room', 'Living room', 'Master bath', 'Master Bdrm', 'Study', 'Upstairs', 'Utility room', 'Garden', 'Custom 1', 'Custom 2', 'Custom 3', 'Custom 4', 'Custom 5'], length=930, config='42 00', config_str='CUSTOM_ZONE_NAMES', data_type='SPACE_PADDED_STRING_LIST'), checksum='2e', verified=True)
+2024-07-26 18:28:19.796 INFO     Processing time: 0:00:00.000962
+
+2024-07-26 18:28:20.038 INFO     MSG: b'\r\xb0\x03B\x7f\xff\x08\xffz\xe9\x006\x00\x10\x00\x00\x00\n\x00\x00\x006\x000\x00 \x00.\x00,\x001\x00A\x00B\x00C\x002\x00D\x00E\x00F\x003\x00G\x00H\x00I\x004\x00J\x00K\x00L\x005\x00M\x00N\x00O\x006\x00P\x00Q\x00R\x00S\x007\x00T\x00U\x00V\x008\x00W\x00X\x00Y\x00Z\x009\x00!\x00#\x00%\x00&\x00\'\x00*\x00+\x00-\x00/\x00=\x00^\x00@\x00_\x00"\x00:\x00\x0bC\xd8\n'
+2024-07-26 18:28:20.038 INFO     B0 Message: b0
+2024-07-26 18:28:20.039 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:20.039 INFO     Using generic data format decoder for data type: 10
+2024-07-26 18:28:20.039 INFO     [1;32mDecoder -> [1;36mDECODED 42 e9 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='e9 00', page=255, length=127, data=B0Cmd42DecodedData(data=['0', '', '.', ',', '1', 'A', 'B', 'C', '2', 'D', 'E', 'F', '3', 'G', 'H', 'I', '4', 'J', 'K', 'L', '5', 'M', 'N', 'O', '6', 'P', 'Q', 'R', 'S', '7', 'T', 'U', 'V', '8', 'W', 'X', 'Y', 'Z', '9', '!', '#', '%', '&', "'", '*', '+', '-', '/', '=', '^', '@', '_', '"', ':'], length=108, config='e9 00', config_str='ACCEPTED_CHARS_UPPER', data_type='SPACE_PADDED_STRING_LIST'), checksum='d8', verified=True)
+2024-07-26 18:28:20.039 INFO     Processing time: 0:00:00.001015
+
+2024-07-26 18:28:20.286 INFO     MSG: b'\r\xb0\x03B\x7f\xff\x08\xffz\xea\x006\x00\x10\x00\x00\x00\n\x00\x00\x006\x000\x00 \x00.\x00,\x001\x00a\x00b\x00c\x002\x00d\x00e\x00f\x003\x00g\x00h\x00i\x004\x00j\x00k\x00l\x005\x00m\x00n\x00o\x006\x00p\x00q\x00r\x00s\x007\x00t\x00u\x00v\x008\x00w\x00x\x00y\x00z\x009\x00!\x00#\x00%\x00&\x00\'\x00*\x00+\x00-\x00/\x00=\x00^\x00@\x00_\x00"\x00:\x00\x0cC\x93\n'
+2024-07-26 18:28:20.286 INFO     B0 Message: b0
+2024-07-26 18:28:20.286 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:20.287 INFO     Using generic data format decoder for data type: 10
+2024-07-26 18:28:20.287 INFO     [1;32mDecoder -> [1;36mDECODED 42 ea 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='ea 00', page=255, length=127, data=B0Cmd42DecodedData(data=['0', '', '.', ',', '1', 'a', 'b', 'c', '2', 'd', 'e', 'f', '3', 'g', 'h', 'i', '4', 'j', 'k', 'l', '5', 'm', 'n', 'o', '6', 'p', 'q', 'r', 's', '7', 't', 'u', 'v', '8', 'w', 'x', 'y', 'z', '9', '!', '#', '%', '&', "'", '*', '+', '-', '/', '=', '^', '@', '_', '"', ':'], length=108, config='ea 00', config_str='ACCEPTED_CHARS_LOWER', data_type='SPACE_PADDED_STRING_LIST'), checksum='93', verified=True)
+2024-07-26 18:28:20.287 INFO     Processing time: 0:00:00.000765
+
+2024-07-26 18:28:20.481 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\xe8\x00\x04\x00\rC\xc4\n'
+2024-07-26 18:28:20.481 INFO     B0 Message: b0
+2024-07-26 18:28:20.481 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:20.482 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:20.482 INFO     [1;32mDecoder -> [1;36mDECODED 35 e8 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='e8 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='e8 00', config_str='PANEL_LANGUAGE', data_type='INTEGER'), checksum='c4', verified=True)
+2024-07-26 18:28:20.482 INFO     Processing time: 0:00:00.000738
+
+2024-07-26 18:28:20.726 INFO     MSG: b'\r\xb0\x03v\n\xff(\x12\x05\x00\x00\x00\x00\x00\x0eC;\n'
+2024-07-26 18:28:20.726 INFO     B0 Message: b0
+2024-07-26 18:28:20.726 INFO     Using generic data decoder
+2024-07-26 18:28:20.726 INFO     [1;32mDecoder -> [1;36mDECODED 76:[0m B0Response(type='RESPONSE', command='76', cmd_name='UNKNOWN', params='', page=255, length=10, data=B0GenDecodedData(data=[{'type': 'WORD40', 'idx': 18, 'idx_name': 'UKN18', 'len': 5, 'data': ['00 00 00 00 00']}], length=10), checksum='3b', verified=True)
+2024-07-26 18:28:20.727 INFO     Processing time: 0:00:00.000537
+
+2024-07-26 18:28:20.963 INFO     MSG: b'\r\xb0\x03X=\xffp\xff8\x04\x05\x00\x00\x01\x00\xff\x02v\x01G\x04\x00\xff\x03\x0c\x00\x00\x01\x00\x0c\x02~\x00R\x17\x00\x07\x03-\x01\x00\x01\x00\x16\x03h\x00\xa0\x16\x00\x04\x0b\x01\x00\x00\x00\x00\x0c\x07F\x00\x01\x00\x00\xff\x0fC\x0b\n'
+2024-07-26 18:28:20.963 INFO     B0 Message: b0
+2024-07-26 18:28:20.963 INFO     Using generic data decoder
+2024-07-26 18:28:20.964 INFO     [1;32mDecoder -> [1;36mDECODED 58:[0m B0Response(type='RESPONSE', command='58', cmd_name='UNKNOWN', params='', page=255, length=61, data=B0GenDecodedData(data=[{'type': 'WORD112', 'idx': 255, 'idx_name': 'NA', 'len': 56, 'data': ['04 05 00 00 01 00 ff 02 76 01 47 04 00 ff', '03 0c 00 00 01 00 0c 02 7e 00 52 17 00 07', '03 2d 01 00 01 00 16 03 68 00 a0 16 00 04', '0b 01 00 00 00 00 0c 07 46 00 01 00 00 ff']}], length=61), checksum='0b', verified=True)
+2024-07-26 18:28:20.964 INFO     Processing time: 0:00:00.000830
+
+2024-07-26 18:28:21.016 INFO     MSG: b'\r\x06\xf9\n'
+2024-07-26 18:28:21.016 INFO     [1;32mDecoder -> [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+2024-07-26 18:28:21.017 INFO     Processing time: 0:00:00.000332
+
+2024-07-26 18:28:21.204 INFO     MSG: b'\r\xb0\x03\x1d\t\xff\x01\n\x04\x01\x00\x00\x00\x10C\xc2\n'
+2024-07-26 18:28:21.204 INFO     B0 Message: b0
+2024-07-26 18:28:21.204 INFO     Using generic data decoder
+2024-07-26 18:28:21.204 INFO     [1;32mDecoder -> [1;36mDECODED 1d:[0m B0Response(type='RESPONSE', command='1d', cmd_name='ENROLLED', params='', page=255, length=9, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 10, 'idx_name': 'TAGS', 'len': 4, 'data': ['01', '00', '00', '00']}], length=9), checksum='c2', verified=True)
+2024-07-26 18:28:21.204 INFO     Processing time: 0:00:00.000497
+
+2024-07-26 18:28:21.456 INFO     MSG: b'\r\xb0\x02B\x8b\x01\x08\xff\x86\xa4\x00\x04\x00@\x01\x00\x00\x04\xff\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11C\xaa\n'
+2024-07-26 18:28:21.456 INFO     B0 Message: b0
+2024-07-26 18:28:21.555 INFO     MSG: b'\r\xb0\x03B;\xff\x08\xff6\xa4\x00\x04\x00@\x01\x00\x00\x04\xff\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12CI\n'
+2024-07-26 18:28:21.555 INFO     B0 Message: b0
+2024-07-26 18:28:21.555 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:21.555 INFO     Using format decoder: m42_a4_00_decoder
+2024-07-26 18:28:21.555 INFO     [1;32mDecoder -> [1;36mDECODED 42 a4 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='a4 00', page=255, length=59, data=B0Cmd42DecodedData(data=['', '', '', ''], length=160, config='a4 00', config_str='EMAIL_ADDRESSES', data_type='INTEGER'), checksum='49', verified=True)
+2024-07-26 18:28:21.555 INFO     Processing time: 0:00:00.000554
+
+2024-07-26 18:28:21.657 INFO     MSG: b'\r\xb0\x03B3\xff\x08\xff.\xa5\x00\x04\x00@\x00\x00\x00\x04\xff\x00\x00\x04\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x13CX\n'
+2024-07-26 18:28:21.658 INFO     B0 Message: b0
+2024-07-26 18:28:21.658 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:21.658 INFO     Using format decoder: m42_a5_00_decoder
+2024-07-26 18:28:21.658 INFO     [1;32mDecoder -> [1;36mDECODED 42 a5 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='a5 00', page=255, length=51, data=B0Cmd42DecodedData(data=['', '', '', ''], length=32, config='a5 00', config_str='PHONE_NUMBERS', data_type='INTEGER'), checksum='58', verified=True)
+2024-07-26 18:28:21.658 INFO     Processing time: 0:00:00.000779
+
+2024-07-26 18:28:21.740 INFO     MSG: b'\r\xb0\x03B\x17\xff\x08\xff\x12\x18\x01\x04\x00\x08\x00\x00\x00\x04\xff\x00\x00\x04\x00\x00\x00\x00\x00\x14CT\n'
+2024-07-26 18:28:21.740 INFO     B0 Message: b0
+2024-07-26 18:28:21.740 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:21.740 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:21.740 INFO     [1;32mDecoder -> [1;36mDECODED 42 18 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='18 01', page=255, length=23, data=B0Cmd42DecodedData(data=[0, 0, 0, 0], length=4, config='18 01', config_str='EMAIL_REPORTED_EVENTS', data_type='INTEGER'), checksum='54', verified=True)
+2024-07-26 18:28:21.740 INFO     Processing time: 0:00:00.000624
+
+2024-07-26 18:28:21.820 INFO     MSG: b'\r\xb0\x03B\x17\xff\x08\xff\x12\x19\x01\x04\x00\x08\x00\x00\x00\x04\xff\x00\x00\x04\x00\x00\x00\x00\x00\x15CR\n'
+2024-07-26 18:28:21.820 INFO     B0 Message: b0
+2024-07-26 18:28:21.820 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:21.820 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:21.820 INFO     [1;32mDecoder -> [1;36mDECODED 42 19 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='19 01', page=255, length=23, data=B0Cmd42DecodedData(data=[0, 0, 0, 0], length=4, config='19 01', config_str='SMS_REPORTED_EVENTS', data_type='INTEGER'), checksum='52', verified=True)
+2024-07-26 18:28:21.820 INFO     Processing time: 0:00:00.000584
+
+2024-07-26 18:28:22.013 INFO     MSG: b'\r\xb0\x03B#\xff\x08\xff\x1e\x1e\x01\x02\x00\x80\x00\x00\x00\x05\x10\x01\x00\x01\x00\x04~~O\x98\x80\n$\x00\xc8 \x00\x00\x00\xc0\x00\x16Cm\n'
+2024-07-26 18:28:22.013 INFO     B0 Message: b0
+2024-07-26 18:28:22.013 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:22.013 INFO     Using generic data format decoder for data type: 5
+2024-07-26 18:28:22.013 INFO     [1;32mDecoder -> [1;36mDECODED 42 1e 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='1e 01', page=255, length=35, data=B0Cmd42DecodedData(data='04 7e 7e 4f 98 80 0a 24 00 c8 20 00 00 00 c0 00', length=16, config='1e 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='6d', verified=True)
+2024-07-26 18:28:22.013 INFO     Processing time: 0:00:00.000575
+
+2024-07-26 18:28:22.239 INFO     MSG: b'\r\xb0\x03B\x14\xff\x08\xff\x0f\x1f\x01\x02\x00\x08\x00\x00\x00\x05\x10\x01\x00\x01\x00\x01\x17CB\n'
+2024-07-26 18:28:22.240 INFO     B0 Message: b0
+2024-07-26 18:28:22.240 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:22.240 INFO     Using generic data format decoder for data type: 5
+2024-07-26 18:28:22.240 INFO     [1;32mDecoder -> [1;36mDECODED 42 1f 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='1f 01', page=255, length=20, data=B0Cmd42DecodedData(data='01', length=1, config='1f 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='42', verified=True)
+2024-07-26 18:28:22.240 INFO     Processing time: 0:00:00.000955
+
+2024-07-26 18:28:22.440 INFO     MSG: b'\r\xb0\x035\'\xff\x08\xff"\xa3\x01\x05\x00\x00\x00\x00\x80\x00\x00 \x00\x00\x00\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x18C\x9f\n'
+2024-07-26 18:28:22.441 INFO     B0 Message: b0
+2024-07-26 18:28:22.441 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:22.441 INFO     Using generic data format decoder for data type: 5
+2024-07-26 18:28:22.441 INFO     [1;32mDecoder -> [1;36mDECODED 35 a3 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='a3 01', page=255, length=39, data=B0Cmd35DecodedData(data='00 00 00 00 80 00 00 20 00 00 00 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', length=31, config='a3 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='9f', verified=True)
+2024-07-26 18:28:22.441 INFO     Processing time: 0:00:00.000524
+
+2024-07-26 18:28:22.625 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04\xa2\x01\x04\x01\x19C\xfc\n'
+2024-07-26 18:28:22.625 INFO     B0 Message: b0
+2024-07-26 18:28:22.625 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:22.625 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:22.625 INFO     [1;32mDecoder -> [1;36mDECODED 35 a2 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='a2 01', page=255, length=9, data=B0Cmd35DecodedData(data=1, length=1, config='a2 01', config_str='Unknown', data_type='INTEGER'), checksum='fc', verified=True)
+2024-07-26 18:28:22.625 INFO     Processing time: 0:00:00.000563
+
+2024-07-26 18:28:22.806 INFO     MSG: b'\r\xb0\x03B\x14\xff\x08\xff\x0f\x85\x01\x02\x00\x08\x00\x00\x00\x04\x10\x01\x00\x01\x00\x00\x1aC\xda\n'
+2024-07-26 18:28:22.806 INFO     B0 Message: b0
+2024-07-26 18:28:22.806 INFO     Using b0_42_data_decoder
+2024-07-26 18:28:22.807 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:22.807 INFO     [1;32mDecoder -> [1;36mDECODED 42 85 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='85 01', page=255, length=20, data=B0Cmd42DecodedData(data=0, length=1, config='85 01', config_str='SSL_FOR_IPMP', data_type='INTEGER'), checksum='da', verified=True)
+2024-07-26 18:28:22.807 INFO     Processing time: 0:00:00.000599
+
+2024-07-26 18:28:22.998 INFO     MSG: b'\r\xb0\x035\t\xff\x08\xff\x04X\x00\x04\x1e\x1bC)\n'
+2024-07-26 18:28:22.998 INFO     B0 Message: b0
+2024-07-26 18:28:22.998 INFO     Using b0_35_data_decoder
+2024-07-26 18:28:22.998 INFO     Using generic data format decoder for data type: 4
+2024-07-26 18:28:22.998 INFO     [1;32mDecoder -> [1;36mDECODED 35 58 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='58 00', page=255, length=9, data=B0Cmd35DecodedData(data=30, length=1, config='58 00', config_str='EXIT_DELAY', data_type='INTEGER'), checksum='29', verified=True)
+2024-07-26 18:28:22.998 INFO     Processing time: 0:00:00.000535
+
+2024-07-26 18:28:23.194 INFO     MSG: b'\r\xb0\x03T\x05\xffH\xff\x00\x1cCK\n'
+2024-07-26 18:28:23.194 INFO     B0 Message: b0
+2024-07-26 18:28:23.194 INFO     Using generic data decoder
+2024-07-26 18:28:23.194 INFO     [1;32mDecoder -> [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='4b', verified=True)
+2024-07-26 18:28:23.194 INFO     Processing time: 0:00:00.000486
+
+2024-07-26 18:28:23.422 INFO     MSG: b'\r\xb0\x03\x0c\x1f\xff\x01\x00\x01\x00\xff\x01\x02\x01\x00\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\xff\x01\x04\x04\x00\x00\x00\x00\x1dC\xa5\n'
+2024-07-26 18:28:23.423 INFO     B0 Message: b0
+2024-07-26 18:28:23.423 INFO     Using generic data decoder
+2024-07-26 18:28:23.423 INFO     [1;32mDecoder -> [1;36mDECODED 0c:[0m B0Response(type='RESPONSE', command='0c', cmd_name='UNKNOWN', params='', page=255, length=31, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 0, 'idx_name': 'REPEATERS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 2, 'idx_name': 'SIRENS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}, {'type': 'BITS', 'idx': 4, 'idx_name': 'KEYPADS', 'len': 4, 'data': ['00', '00', '00', '00']}], length=31), checksum='a5', verified=True)
+2024-07-26 18:28:23.423 INFO     Processing time: 0:00:00.000571
+
+2024-07-26 18:28:23.618 INFO     MSG: b'\r\xb0\x03\x0e%\xff\x01\x00\x01\x00\xff\x01\x01\x02\x00\x00\xff\x01\x02\x01\x00\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\xff\x01\x04\x04\x00\x00\x00\x00\x1eC\x98\n'
+2024-07-26 18:28:23.618 INFO     B0 Message: b0
+2024-07-26 18:28:23.618 INFO     Using generic data decoder
+2024-07-26 18:28:23.619 INFO     [1;32mDecoder -> [1;36mDECODED 0e:[0m B0Response(type='RESPONSE', command='0e', cmd_name='UNKNOWN', params='', page=255, length=37, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 0, 'idx_name': 'REPEATERS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 1, 'idx_name': 'X10', 'len': 2, 'data': ['00', '00']}, {'type': 'BITS', 'idx': 2, 'idx_name': 'SIRENS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}, {'type': 'BITS', 'idx': 4, 'idx_name': 'KEYPADS', 'len': 4, 'data': ['00', '00', '00', '00']}], length=37), checksum='98', verified=True)
+2024-07-26 18:28:23.619 INFO     Processing time: 0:00:00.000542
+
+2024-07-26 18:28:23.808 INFO     MSG: b'\r\xb0\x03\x19\r\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\x1fC\xb7\n'
+2024-07-26 18:28:23.809 INFO     B0 Message: b0
+2024-07-26 18:28:23.809 INFO     Using generic data decoder
+2024-07-26 18:28:23.809 INFO     [1;32mDecoder -> [1;36mDECODED 19:[0m B0Response(type='RESPONSE', command='19', cmd_name='BYPASSES', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='b7', verified=True)
+2024-07-26 18:28:23.809 INFO     Processing time: 0:00:00.000490
+
+2024-07-26 18:28:23.886 INFO     MSG: b'\r\xb0\x03Q\x06\xff\x08\xff\x01$ Cd\n'
+2024-07-26 18:28:23.886 INFO     B0 Message: b0
+2024-07-26 18:28:23.886 INFO     Using b0_51_data_decoder
+2024-07-26 18:28:23.886 INFO     [1;32mDecoder -> [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=6, data=B0DecodedData(data=['24']), checksum='64', verified=True)
+2024-07-26 18:28:23.886 INFO     Processing time: 0:00:00.000466
+
+2024-07-26 18:28:24.080 INFO     MSG: b'\r\xb0\x03$\x1a\xff\x08\xff\x15\x02\x00\x00\x00\x00\x00\x00\x00&\x1b\x12\x1a\x07\x18\x14\x06\x01\x00\x81\x00\x00!Ca\n'
+2024-07-26 18:28:24.080 INFO     B0 Message: b0
+2024-07-26 18:28:24.081 INFO     Using b0_24_data_decoder
+2024-07-26 18:28:24.081 INFO     [1;32mDecoder -> [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:27:38', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='61', verified=True)
+2024-07-26 18:28:24.081 INFO     Processing time: 0:00:00.000786
+
+2024-07-26 18:28:24.256 INFO     MSG: b'\r\xb0\x03\'\r\xff\x01\x07\x02\x00\x00\xff\x01\x0b\x02\x00\x00"C\x9a\n'
+2024-07-26 18:28:24.256 INFO     B0 Message: b0
+2024-07-26 18:28:24.256 INFO     Using generic data decoder
+2024-07-26 18:28:24.256 INFO     [1;32mDecoder -> [1;36mDECODED 27:[0m B0Response(type='RESPONSE', command='27', cmd_name='CAMERA_SOMETING', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 7, 'idx_name': 'CAMERASA', 'len': 2, 'data': ['00', '00']}, {'type': 'BITS', 'idx': 11, 'idx_name': 'CAMERASB', 'len': 2, 'data': ['00', '00']}], length=13), checksum='9a', verified=True)
+2024-07-26 18:28:24.256 INFO     Processing time: 0:00:00.000518
+
+2024-07-26 18:28:24.480 INFO     MSG: b'\r\xb0\x03K\x9b\xff(\x03\x96\xcf\xe9\xa3f\x04a\xea\xa3f\x02A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00A\xecm8\x00#C\xf1\n'
+2024-07-26 18:28:24.480 INFO     B0 Message: b0
+2024-07-26 18:28:24.480 INFO     Using b0_4b_data_decoder
+2024-07-26 18:28:24.480 INFO     [1;32mDecoder -> [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:26:41', 'code': 'CLOSED'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='f1', verified=True)
+2024-07-26 18:28:24.481 INFO     Processing time: 0:00:00.000814
+
+2024-07-26 18:28:24.681 INFO     MSG: b'\r\xb0\x03N\r\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00$C}\n'
+2024-07-26 18:28:24.681 INFO     B0 Message: b0
+2024-07-26 18:28:24.681 INFO     Using generic data decoder
+2024-07-26 18:28:24.682 INFO     [1;32mDecoder -> [1;36mDECODED 4e:[0m B0Response(type='RESPONSE', command='4e', cmd_name='ZONE4E', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='7d', verified=True)
+2024-07-26 18:28:24.682 INFO     Processing time: 0:00:00.000488
+
+2024-07-26 18:28:24.916 INFO     MSG: b'\r\xb0\x03O\r\xff\x01\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00%C{\n'
+2024-07-26 18:28:24.917 INFO     B0 Message: b0
+2024-07-26 18:28:24.917 INFO     Using generic data decoder
+2024-07-26 18:28:24.917 INFO     [1;32mDecoder -> [1;36mDECODED 4f:[0m B0Response(type='RESPONSE', command='4f', cmd_name='ZONE4F', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='7b', verified=True)
+2024-07-26 18:28:24.917 INFO     Processing time: 0:00:00.000466
+
+2024-07-26 18:28:25.096 INFO     MSG: b'\r\xb0\x03v\n\xff(\x12\x05\x00\x00\x00\x00\x00&C#\n'
+2024-07-26 18:28:25.096 INFO     B0 Message: b0
+2024-07-26 18:28:25.096 INFO     Using generic data decoder
+2024-07-26 18:28:25.096 INFO     [1;32mDecoder -> [1;36mDECODED 76:[0m B0Response(type='RESPONSE', command='76', cmd_name='UNKNOWN', params='', page=255, length=10, data=B0GenDecodedData(data=[{'type': 'WORD40', 'idx': 18, 'idx_name': 'UKN18', 'len': 5, 'data': ['00 00 00 00 00']}], length=10), checksum='23', verified=True)
+2024-07-26 18:28:25.096 INFO     Processing time: 0:00:00.000534
+
+2024-07-26 18:28:25.319 INFO     MSG: b"\r\xb0\x03$\x1a\xff\x08\xff\x15\x02\x00\x00\x00\x00\x00\x00\x00'\x1b\x12\x1a\x07\x18\x14\x06\x01\x00\x81\x00\x00'CZ\n"
+2024-07-26 18:28:25.320 INFO     B0 Message: b0
+2024-07-26 18:28:25.320 INFO     Using b0_24_data_decoder
+2024-07-26 18:28:25.320 INFO     [1;32mDecoder -> [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:27:39', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='5a', verified=True)
+2024-07-26 18:28:25.320 INFO     Processing time: 0:00:00.000607
+
+2024-07-26 18:28:25.538 INFO     MSG: b'\r\xb0\x03T\x05\xffH\xff\x00(C?\n'
+2024-07-26 18:28:25.538 INFO     B0 Message: b0
+2024-07-26 18:28:25.538 INFO     Using generic data decoder
+2024-07-26 18:28:25.538 INFO     [1;32mDecoder -> [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='3f', verified=True)
+2024-07-26 18:28:25.538 INFO     Processing time: 0:00:00.000450
+
+2024-07-26 18:30:35.775 INFO     Keyboard interrupted. Exit.
+2024-07-26 18:30:35.775 INFO     Shutting down connection to Decoder for 
+2024-07-26 18:30:35.775 INFO     Message Coordinator Stopped
+2024-07-26 18:30:35.775 INFO     Decoder  server has disconnected
+2024-07-26 18:30:35.775 INFO     Loop is closed

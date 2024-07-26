@@ -1,0 +1,293 @@
+2024-07-26 18:41:17.941 INFO     Starting Connection Manager
+2024-07-26 18:41:17.941 INFO     Initiating connection to Decoder on behalf of 
+2024-07-26 18:41:17.941 INFO     Connected to Decoder server on port 5002 for 
+2024-07-26 18:41:17.941 INFO     Connection Manager Running
+2024-07-26 18:41:17.941 INFO     Message Coordinator Started
+2024-07-26 18:41:28.866 INFO     [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=8, data=B0DecodedData(data=['18', '24', '4b']), checksum='b6', verified=True)
+
+2024-07-26 18:41:31.444 INFO     [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:40:45', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='05', verified=True)
+
+2024-07-26 18:41:31.671 INFO     [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:40:42', 'code': 'CLOSED'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='5e', verified=True)
+
+2024-07-26 18:41:31.899 INFO     [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='fb', verified=True)
+
+2024-07-26 18:41:41.870 INFO     [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=8, data=B0DecodedData(data=['18', '24', '4b']), checksum='ac', verified=True)
+
+2024-07-26 18:41:46.906 INFO     [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:41:01', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': False, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='27', verified=True)
+
+2024-07-26 18:41:47.125 INFO     [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:40:55', 'code': 'OPEN'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='48', verified=True)
+
+2024-07-26 18:41:47.341 INFO     [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=14, data=B0GenDecodedData(data=[{'type': 'WORD72', 'idx': 255, 'idx_name': 'NA', 'len': 9, 'data': ['03 2d 01 00 01 14 00 16 03']}], length=14), checksum='80', verified=True)
+
+2024-07-26 18:41:52.867 INFO     [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=8, data=B0DecodedData(data=['18', '24', '4b']), checksum='a2', verified=True)
+
+2024-07-26 18:41:57.719 INFO     [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:41:11', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='12', verified=True)
+
+2024-07-26 18:41:58.029 INFO     [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:41:06', 'code': 'CLOSED'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='32', verified=True)
+
+2024-07-26 18:41:58.228 INFO     [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='e7', verified=True)
+
+2024-07-26 18:44:19.389 INFO     [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 04 00 01 0f 00 00 16 00 00 43', checksum='ec', verified=True)
+
+2024-07-26 18:44:19.596 INFO     [1;36mDECODED 2b:[0m B0Response(type='RESPONSE', command='2b', cmd_name='UNKNOWN2B', params='', page=255, length=45, data=B0GenDecodedData(data=[{'type': 'WORD16', 'idx': 255, 'idx_name': 'NA', 'len': 40, 'data': ['31 08', '51 06', '01 08', '01 00', '01 07', '01 05', '01 05', '51 08', '76 08', '78 08', '01 05', '51 08', '00 00', '79 08', '00 00', '00 00', '00 00', '00 00', '80 08', '81 08']}], length=45), checksum='ed', verified=True)
+
+2024-07-26 18:44:19.796 INFO     [1;36mDECODED 22:[0m B0Response(type='RESPONSE', command='22', cmd_name='SYSTEM_CAPABILITIES', params='', page=255, length=47, data=B0DecodedData(data={'REPEATERS': 8, 'X10': 15, 'SIRENS': 8, 'ZONES': 64, 'KEYPADS': 32, 'KEYFOBS': 32, 'USERCODES': 48, 'CAMERASA': 0, 'UNK8': 1, 'POWERLINK': 1, 'TAGS': 32, 'CAMERASB': 16, 'PANEL': 1, 'UNK13': 1, 'PARTITIONS': 3, 'UNK15': 1, 'UNK16': 15, 'EVENTS': 1000, 'UKN18': 0, 'UNK19': 31, 'UNK20': 10}), checksum='bf', verified=True)
+
+2024-07-26 18:44:19.997 INFO     [1;36mDECODED 35 01 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='01 00', page=255, length=11, data=B0Cmd35DecodedData(data='001234', length=3, config='01 00', config_str='COMMS_CS_REC2_ACCT', data_type='DIRECT_MAP_STRING'), checksum='df', verified=True)
+
+2024-07-26 18:44:20.097 INFO     [1;36mDECODED 35 07 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='07 00', page=255, length=48, data=B0Cmd35DecodedData(data={'REPEATERS': 4, 'X10': 15, 'SIRENS': 4, 'ZONES': 30, 'KEYPADS': 8, 'KEYFOBS': 8, 'USERCODES': 8, 'CAMERASA': 0, 'UNK8': 1, 'POWERLINK': 1, 'TAGS': 8, 'CAMERASB': 16, 'PANEL': 1, 'UNK13': 1, 'EVENTS': 250, 'PARTITIONS': 3, 'UNK16': 0, 'UNK17': 31, 'UKN18': 0, 'UNK19': 0}, length=40, config='07 00', config_str='CAPABILITIES', data_type='INTEGER'), checksum='4b', verified=True)
+
+2024-07-26 18:44:20.177 INFO     [1;36mDECODED 35 0e 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='0e 00', page=255, length=16, data=B0Cmd35DecodedData(data='ffffffffffffffff', length=8, config='0e 00', config_str='Unknown', data_type='DIRECT_MAP_STRING'), checksum='0d', verified=True)
+
+2024-07-26 18:44:20.256 INFO     [1;36mDECODED 35 10 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='10 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='10 00', config_str='Unknown', data_type='INTEGER'), checksum='15', verified=True)
+
+2024-07-26 18:44:20.326 INFO     [1;36mDECODED 35 24 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='24 00', page=255, length=10, data=B0Cmd35DecodedData(data=[174, 7], length=2, config='24 00', config_str='PANEL_EPROM_VERSION', data_type='INTEGER'), checksum='48', verified=True)
+
+2024-07-26 18:44:20.406 INFO     [1;36mDECODED 35 29 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='29 00', page=255, length=9, data=B0Cmd35DecodedData(data=4, length=1, config='29 00', config_str='Unknown', data_type='INTEGER'), checksum='f5', verified=True)
+
+2024-07-26 18:44:20.489 INFO     [1;36mDECODED 35 2c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='2c 00', page=255, length=24, data=B0Cmd35DecodedData(data='J-703883 I20.214', length=16, config='2c 00', config_str='PANEL_DEFAULT_VERSION', data_type='STRING'), checksum='8e', verified=True)
+
+2024-07-26 18:44:20.566 INFO     [1;36mDECODED 35 2d 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='2d 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS703642 I20.214', length=16, config='2d 00', config_str='PANEL_SOFTWARE_VERSION', data_type='STRING'), checksum='6d', verified=True)
+
+2024-07-26 18:44:20.642 INFO     [1;36mDECODED 35 30 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='30 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='30 00', config_str='PARTITIONS_ENABLED', data_type='INTEGER'), checksum='ef', verified=True)
+
+2024-07-26 18:44:20.727 INFO     [1;36mDECODED 35 3c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3c 00', page=255, length=23, data=B0Cmd35DecodedData(data='PowerMaster-10', length=15, config='3c 00', config_str='PANEL_HARDWARE_VERSION', data_type='SPACE_PADDED_STRING'), checksum='96', verified=True)
+
+2024-07-26 18:44:20.804 INFO     [1;36mDECODED 35 3d 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3d 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS702414 I02.036', length=16, config='3d 00', config_str='PANEL_RSU_VERSION', data_type='STRING'), checksum='5c', verified=True)
+
+2024-07-26 18:44:20.880 INFO     [1;36mDECODED 35 3e 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3e 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS702413 I01.033', length=16, config='3e 00', config_str='PANEL_BOOT_VERSION', data_type='STRING'), checksum='5f', verified=True)
+
+2024-07-26 18:44:20.956 INFO     [1;36mDECODED 35 5b 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='5b 00', page=255, length=9, data=B0Cmd35DecodedData(data=160, length=1, config='5b 00', config_str='BYPASS_ARM', data_type='INTEGER'), checksum='20', verified=True)
+
+2024-07-26 18:44:21.026 INFO     [1;36mDECODED 35 5c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='5c 00', page=255, length=9, data=B0Cmd35DecodedData(data=161, length=1, config='5c 00', config_str='Unknown', data_type='INTEGER'), checksum='1d', verified=True)
+
+2024-07-26 18:44:21.238 INFO     [1;36mDECODED 56:[0m B0Response(type='RESPONSE', command='56', cmd_name='UNKNOWN', params='', page=255, length=12, data=B0GenDecodedData(data=[{'type': 'BYTES', 'idx': 255, 'idx_name': 'NA', 'len': 7, 'data': ['03', '00', '02', '00', '06', '00', '00']}], length=12), checksum='eb', verified=True)
+
+2024-07-26 18:44:21.451 INFO     [1;36mDECODED 3c:[0m STDMessage(command='3c', command_str='EPROM_INFO', data='fd 0a 00 00 ae 07 01 00 00 00', checksum='05', verified=True)
+
+2024-07-26 18:44:21.624 INFO     [1;36mDECODED 3f:[0m STDMessage(command='3f', command_str='CONFIG_VALUE', data='e0 01 01 02', checksum='db', verified=True)
+
+2024-07-26 18:44:21.878 INFO     [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=6, data=B0DecodedData(data=['24']), checksum='df', verified=True)
+
+2024-07-26 18:44:21.936 INFO     [1;36mDECODED 35 03 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='03 00', page=255, length=14, data=B0Cmd35DecodedData(data='052058105181', length=6, config='03 00', config_str='COMMS_CS_REC1_IP', data_type='DIRECT_MAP_STRING'), checksum='aa', verified=True)
+
+2024-07-26 18:44:22.135 INFO     [1;36mDECODED 35 05 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='05 00', page=255, length=14, data=B0Cmd35DecodedData(data='192168200054', length=6, config='05 00', config_str='COMMS_CS_REC2_IP', data_type='DIRECT_MAP_STRING'), checksum='f0', verified=True)
+
+2024-07-26 18:44:22.355 INFO     [1;36mDECODED 35 8a 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='8a 00', page=255, length=11, data=B0Cmd35DecodedData(data=[2, 0, 0], length=3, config='8a 00', config_str='Unknown', data_type='INTEGER'), checksum='82', verified=True)
+
+2024-07-26 18:44:22.480 INFO     [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+
+2024-07-26 18:44:23.865 INFO     [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=6, data=B0DecodedData(data=['24']), checksum='d9', verified=True)
+
+2024-07-26 18:44:32.404 INFO     [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+
+2024-07-26 18:44:33.050 INFO     [1;36mDECODED 35 08 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='08 00', page=255, length=104, data=B0Cmd35DecodedData(data={1: '1111'}, length=96, config='08 00', config_str='USER_CODES', data_type='DIRECT_MAP_STRING'), checksum='29', verified=True)
+
+2024-07-26 18:44:33.239 INFO     [1;36mDECODED 42 e2 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='e2 00', page=255, length=27, data=B0Cmd42DecodedData(data=[7, 1, 1, 1, 1, 1, 1, 1], length=8, config='e2 00', config_str='USER_PARTITION_ACCESS', data_type='INTEGER'), checksum='b5', verified=True)
+
+2024-07-26 18:44:33.471 INFO     [1;36mDECODED 35 0f 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='0f 00', page=255, length=10, data=B0Cmd35DecodedData(data='aaaa', length=2, config='0f 00', config_str='DOWNLOAD_CODE', data_type='DIRECT_MAP_STRING'), checksum='a9', verified=True)
+
+2024-07-26 18:44:33.548 INFO     [1;36mDECODED 35 54 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='54 00', page=255, length=10, data=B0Cmd35DecodedData(data='8888', length=2, config='54 00', config_str='INSTALLER_CODE', data_type='DIRECT_MAP_STRING'), checksum='a7', verified=True)
+
+2024-07-26 18:44:33.640 INFO     [1;36mDECODED 35 55 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='55 00', page=255, length=10, data=B0Cmd35DecodedData(data='9999', length=2, config='55 00', config_str='MASTER_CODE', data_type='DIRECT_MAP_STRING'), checksum='83', verified=True)
+
+2024-07-26 18:44:33.720 INFO     [1;36mDECODED 35 06 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='06 01', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='06 01', config_str='Unknown', data_type='INTEGER'), checksum='03', verified=True)
+
+2024-07-26 18:44:33.911 INFO     [1;36mDECODED 42 0d 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='0d 00', page=255, length=19, data=B0Cmd42DecodedData(data=None, length=0, config='0d 00', config_str='ZONE_NAMES', data_type='SPACE_PADDED_STRING_LIST'), checksum='e3', verified=True)
+
+2024-07-26 18:44:35.131 INFO     [1;36mDECODED 42 42 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='42 00', page=255, length=109, data=B0Cmd42DecodedData(data=['Loft', 'Back door', 'Cellar', 'Bathroom', 'Bedroom', 'Child room', 'Conservatory', 'Play room', 'Dining room', 'Downstairs', 'Emergency', 'Fire', 'Front door', 'Garage', 'Garage door', 'Office', 'Hall', 'Kitchen', 'Laundry room', 'Living room', 'Master bath', 'Master Bdrm', 'Study', 'Upstairs', 'Utility room', 'Garden', 'Custom 1', 'Custom 2', 'Custom 3', 'Custom 4', 'Custom 5'], length=930, config='42 00', config_str='CUSTOM_ZONE_NAMES', data_type='SPACE_PADDED_STRING_LIST'), checksum='7d', verified=True)
+
+2024-07-26 18:44:35.368 INFO     [1;36mDECODED 42 e9 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='e9 00', page=255, length=127, data=B0Cmd42DecodedData(data=['0', '', '.', ',', '1', 'A', 'B', 'C', '2', 'D', 'E', 'F', '3', 'G', 'H', 'I', '4', 'J', 'K', 'L', '5', 'M', 'N', 'O', '6', 'P', 'Q', 'R', 'S', '7', 'T', 'U', 'V', '8', 'W', 'X', 'Y', 'Z', '9', '!', '#', '%', '&', "'", '*', '+', '-', '/', '=', '^', '@', '_', '"', ':'], length=108, config='e9 00', config_str='ACCEPTED_CHARS_UPPER', data_type='SPACE_PADDED_STRING_LIST'), checksum='29', verified=True)
+
+2024-07-26 18:44:35.825 INFO     [1;36mDECODED 42 ea 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='ea 00', page=255, length=127, data=B0Cmd42DecodedData(data=['0', '', '.', ',', '1', 'a', 'b', 'c', '2', 'd', 'e', 'f', '3', 'g', 'h', 'i', '4', 'j', 'k', 'l', '5', 'm', 'n', 'o', '6', 'p', 'q', 'r', 's', '7', 't', 'u', 'v', '8', 'w', 'x', 'y', 'z', '9', '!', '#', '%', '&', "'", '*', '+', '-', '/', '=', '^', '@', '_', '"', ':'], length=108, config='ea 00', config_str='ACCEPTED_CHARS_LOWER', data_type='SPACE_PADDED_STRING_LIST'), checksum='e3', verified=True)
+
+2024-07-26 18:44:36.045 INFO     [1;36mDECODED 35 e8 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='e8 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='e8 00', config_str='PANEL_LANGUAGE', data_type='INTEGER'), checksum='15', verified=True)
+
+2024-07-26 18:44:36.242 INFO     [1;36mDECODED 76:[0m B0Response(type='RESPONSE', command='76', cmd_name='UNKNOWN', params='', page=255, length=10, data=B0GenDecodedData(data=[{'type': 'WORD40', 'idx': 18, 'idx_name': 'UKN18', 'len': 5, 'data': ['00 00 00 00 00']}], length=10), checksum='8b', verified=True)
+
+2024-07-26 18:44:36.526 INFO     [1;36mDECODED 58:[0m B0Response(type='RESPONSE', command='58', cmd_name='UNKNOWN', params='', page=255, length=61, data=B0GenDecodedData(data=[{'type': 'WORD112', 'idx': 255, 'idx_name': 'NA', 'len': 56, 'data': ['04 05 00 00 01 00 ff 02 76 01 47 04 00 ff', '03 0c 00 00 01 00 0c 02 7e 00 52 17 00 07', '03 2d 01 00 01 00 16 03 68 00 a0 16 00 04', '0b 01 00 00 00 00 0c 07 46 00 01 00 00 ff']}], length=61), checksum='5b', verified=True)
+
+2024-07-26 18:44:36.824 INFO     [1;36mDECODED 1d:[0m B0Response(type='RESPONSE', command='1d', cmd_name='ENROLLED', params='', page=255, length=9, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 10, 'idx_name': 'TAGS', 'len': 4, 'data': ['01', '00', '00', '00']}], length=9), checksum='13', verified=True)
+
+2024-07-26 18:44:37.211 INFO     [1;36mDECODED 42 a4 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='a4 00', page=255, length=59, data=B0Cmd42DecodedData(data=['', '', '', ''], length=160, config='a4 00', config_str='EMAIL_ADDRESSES', data_type='INTEGER'), checksum='99', verified=True)
+
+2024-07-26 18:44:37.317 INFO     [1;36mDECODED 42 a5 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='a5 00', page=255, length=51, data=B0Cmd42DecodedData(data=['', '', '', ''], length=32, config='a5 00', config_str='PHONE_NUMBERS', data_type='INTEGER'), checksum='a8', verified=True)
+
+2024-07-26 18:44:37.396 INFO     [1;36mDECODED 42 18 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='18 01', page=255, length=23, data=B0Cmd42DecodedData(data=[0, 0, 0, 0], length=4, config='18 01', config_str='EMAIL_REPORTED_EVENTS', data_type='INTEGER'), checksum='a4', verified=True)
+
+2024-07-26 18:44:37.477 INFO     [1;36mDECODED 42 19 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='19 01', page=255, length=23, data=B0Cmd42DecodedData(data=[0, 0, 0, 0], length=4, config='19 01', config_str='SMS_REPORTED_EVENTS', data_type='INTEGER'), checksum='a2', verified=True)
+
+2024-07-26 18:44:37.698 INFO     [1;36mDECODED 42 1e 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='1e 01', page=255, length=35, data=B0Cmd42DecodedData(data='04 7e 7e 4f 98 80 0a 24 00 c8 20 00 00 00 c0 00', length=16, config='1e 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='bd', verified=True)
+
+2024-07-26 18:44:37.923 INFO     [1;36mDECODED 42 1f 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='1f 01', page=255, length=20, data=B0Cmd42DecodedData(data='01', length=1, config='1f 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='92', verified=True)
+
+2024-07-26 18:44:38.121 INFO     [1;36mDECODED 35 a3 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='a3 01', page=255, length=39, data=B0Cmd35DecodedData(data='00 00 00 00 80 00 00 20 00 00 00 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', length=31, config='a3 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='ef', verified=True)
+
+2024-07-26 18:44:38.319 INFO     [1;36mDECODED 35 a2 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='a2 01', page=255, length=9, data=B0Cmd35DecodedData(data=1, length=1, config='a2 01', config_str='Unknown', data_type='INTEGER'), checksum='4d', verified=True)
+
+2024-07-26 18:44:38.511 INFO     [1;36mDECODED 42 85 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='85 01', page=255, length=20, data=B0Cmd42DecodedData(data=0, length=1, config='85 01', config_str='SSL_FOR_IPMP', data_type='INTEGER'), checksum='2b', verified=True)
+
+2024-07-26 18:44:38.685 INFO     [1;36mDECODED 35 58 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='58 00', page=255, length=9, data=B0Cmd35DecodedData(data=30, length=1, config='58 00', config_str='EXIT_DELAY', data_type='INTEGER'), checksum='79', verified=True)
+
+2024-07-26 18:44:38.889 INFO     [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='9b', verified=True)
+
+2024-07-26 18:44:39.111 INFO     [1;36mDECODED 0c:[0m B0Response(type='RESPONSE', command='0c', cmd_name='UNKNOWN', params='', page=255, length=31, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 0, 'idx_name': 'REPEATERS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 2, 'idx_name': 'SIRENS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}, {'type': 'BITS', 'idx': 4, 'idx_name': 'KEYPADS', 'len': 4, 'data': ['00', '00', '00', '00']}], length=31), checksum='f5', verified=True)
+
+2024-07-26 18:44:39.321 INFO     [1;36mDECODED 0e:[0m B0Response(type='RESPONSE', command='0e', cmd_name='UNKNOWN', params='', page=255, length=37, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 0, 'idx_name': 'REPEATERS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 1, 'idx_name': 'X10', 'len': 2, 'data': ['00', '00']}, {'type': 'BITS', 'idx': 2, 'idx_name': 'SIRENS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}, {'type': 'BITS', 'idx': 4, 'idx_name': 'KEYPADS', 'len': 4, 'data': ['00', '00', '00', '00']}], length=37), checksum='e8', verified=True)
+
+2024-07-26 18:44:39.510 INFO     [1;36mDECODED 19:[0m B0Response(type='RESPONSE', command='19', cmd_name='BYPASSES', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='08', verified=True)
+
+2024-07-26 18:44:39.692 INFO     [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:43:53', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='93', verified=True)
+
+2024-07-26 18:44:39.905 INFO     [1;36mDECODED 27:[0m B0Response(type='RESPONSE', command='27', cmd_name='CAMERA_SOMETING', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 7, 'idx_name': 'CAMERASA', 'len': 2, 'data': ['00', '00']}, {'type': 'BITS', 'idx': 11, 'idx_name': 'CAMERASB', 'len': 2, 'data': ['00', '00']}], length=13), checksum='eb', verified=True)
+
+2024-07-26 18:44:40.121 INFO     [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:41:06', 'code': 'CLOSED'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='de', verified=True)
+
+2024-07-26 18:44:40.298 INFO     [1;36mDECODED 4e:[0m B0Response(type='RESPONSE', command='4e', cmd_name='ZONE4E', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='ce', verified=True)
+
+2024-07-26 18:44:40.555 INFO     [1;36mDECODED 4f:[0m B0Response(type='RESPONSE', command='4f', cmd_name='ZONE4F', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='cc', verified=True)
+
+2024-07-26 18:44:40.727 INFO     [1;36mDECODED 76:[0m B0Response(type='RESPONSE', command='76', cmd_name='UNKNOWN', params='', page=255, length=10, data=B0GenDecodedData(data=[{'type': 'WORD40', 'idx': 18, 'idx_name': 'UKN18', 'len': 5, 'data': ['00 00 00 00 00']}], length=10), checksum='74', verified=True)
+
+2024-07-26 18:44:43.277 INFO     [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:43:57', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='87', verified=True)
+
+2024-07-26 18:44:43.493 INFO     [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='8e', verified=True)
+
+2024-07-26 18:45:03.330 INFO     [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:41:06', 'code': 'CLOSED'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='d4', verified=True)
+
+2024-07-26 18:45:16.804 INFO     [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='8a', verified=True)
+
+2024-07-26 18:45:46.992 INFO     [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 01 00 00 00 00 00 00 00 00 43', checksum='16', verified=True)
+
+2024-07-26 18:45:47.061 INFO     [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 02 00 00 00 00 00 00 00 00 43', checksum='15', verified=True)
+
+2024-07-26 18:45:47.124 INFO     [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 03 00 00 00 00 00 00 00 00 43', checksum='14', verified=True)
+
+2024-07-26 18:45:47.204 INFO     [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 04 00 01 0f 00 00 16 00 00 43', checksum='ec', verified=True)
+
+2024-07-26 18:45:47.287 INFO     [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 05 00 00 00 00 01 00 12 34 43', checksum='ca', verified=True)
+
+2024-07-26 18:45:47.376 INFO     [1;36mDECODED a5:[0m STDMessage(command='a5', command_str='STATUS_UPDATE', data='00 06 03 00 00 00 00 00 00 00 43', checksum='0e', verified=True)
+
+2024-07-26 18:45:47.597 INFO     [1;36mDECODED 2b:[0m B0Response(type='RESPONSE', command='2b', cmd_name='UNKNOWN2B', params='', page=255, length=45, data=B0GenDecodedData(data=[{'type': 'WORD16', 'idx': 255, 'idx_name': 'NA', 'len': 40, 'data': ['31 08', '51 06', '01 08', '01 00', '01 07', '01 05', '01 05', '51 08', '76 08', '78 08', '01 05', '51 08', '00 00', '79 08', '00 00', '00 00', '00 00', '00 00', '80 08', '81 08']}], length=45), checksum='9c', verified=True)
+
+2024-07-26 18:45:47.809 INFO     [1;36mDECODED 22:[0m B0Response(type='RESPONSE', command='22', cmd_name='SYSTEM_CAPABILITIES', params='', page=255, length=47, data=B0DecodedData(data={'REPEATERS': 8, 'X10': 15, 'SIRENS': 8, 'ZONES': 64, 'KEYPADS': 32, 'KEYFOBS': 32, 'USERCODES': 48, 'CAMERASA': 0, 'UNK8': 1, 'POWERLINK': 1, 'TAGS': 32, 'CAMERASB': 16, 'PANEL': 1, 'UNK13': 1, 'PARTITIONS': 3, 'UNK15': 1, 'UNK16': 15, 'EVENTS': 1000, 'UKN18': 0, 'UNK19': 31, 'UNK20': 10}), checksum='6e', verified=True)
+
+2024-07-26 18:45:48.027 INFO     [1;36mDECODED 35 01 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='01 00', page=255, length=11, data=B0Cmd35DecodedData(data='001234', length=3, config='01 00', config_str='COMMS_CS_REC2_ACCT', data_type='DIRECT_MAP_STRING'), checksum='8e', verified=True)
+
+2024-07-26 18:45:48.125 INFO     [1;36mDECODED 35 07 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='07 00', page=255, length=48, data=B0Cmd35DecodedData(data={'REPEATERS': 4, 'X10': 15, 'SIRENS': 4, 'ZONES': 30, 'KEYPADS': 8, 'KEYFOBS': 8, 'USERCODES': 8, 'CAMERASA': 0, 'UNK8': 1, 'POWERLINK': 1, 'TAGS': 8, 'CAMERASB': 16, 'PANEL': 1, 'UNK13': 1, 'EVENTS': 250, 'PARTITIONS': 3, 'UNK16': 0, 'UNK17': 31, 'UKN18': 0, 'UNK19': 0}, length=40, config='07 00', config_str='CAPABILITIES', data_type='INTEGER'), checksum='f9', verified=True)
+
+2024-07-26 18:45:48.202 INFO     [1;36mDECODED 35 0e 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='0e 00', page=255, length=16, data=B0Cmd35DecodedData(data='ffffffffffffffff', length=8, config='0e 00', config_str='Unknown', data_type='DIRECT_MAP_STRING'), checksum='bb', verified=True)
+
+2024-07-26 18:45:48.273 INFO     [1;36mDECODED 35 10 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='10 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='10 00', config_str='Unknown', data_type='INTEGER'), checksum='c3', verified=True)
+
+2024-07-26 18:45:48.343 INFO     [1;36mDECODED 35 24 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='24 00', page=255, length=10, data=B0Cmd35DecodedData(data=[174, 7], length=2, config='24 00', config_str='PANEL_EPROM_VERSION', data_type='INTEGER'), checksum='f6', verified=True)
+
+2024-07-26 18:45:48.415 INFO     [1;36mDECODED 35 29 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='29 00', page=255, length=9, data=B0Cmd35DecodedData(data=4, length=1, config='29 00', config_str='Unknown', data_type='INTEGER'), checksum='a4', verified=True)
+
+2024-07-26 18:45:48.506 INFO     [1;36mDECODED 35 2c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='2c 00', page=255, length=24, data=B0Cmd35DecodedData(data='J-703883 I20.214', length=16, config='2c 00', config_str='PANEL_DEFAULT_VERSION', data_type='STRING'), checksum='3d', verified=True)
+
+2024-07-26 18:45:48.591 INFO     [1;36mDECODED 35 2d 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='2d 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS703642 I20.214', length=16, config='2d 00', config_str='PANEL_SOFTWARE_VERSION', data_type='STRING'), checksum='1c', verified=True)
+
+2024-07-26 18:45:48.677 INFO     [1;36mDECODED 35 30 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='30 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='30 00', config_str='PARTITIONS_ENABLED', data_type='INTEGER'), checksum='9e', verified=True)
+
+2024-07-26 18:45:48.754 INFO     [1;36mDECODED 35 3c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3c 00', page=255, length=23, data=B0Cmd35DecodedData(data='PowerMaster-10', length=15, config='3c 00', config_str='PANEL_HARDWARE_VERSION', data_type='SPACE_PADDED_STRING'), checksum='45', verified=True)
+
+2024-07-26 18:45:48.871 INFO     [1;36mDECODED 35 3d 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3d 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS702414 I02.036', length=16, config='3d 00', config_str='PANEL_RSU_VERSION', data_type='STRING'), checksum='0b', verified=True)
+
+2024-07-26 18:45:48.947 INFO     [1;36mDECODED 35 3e 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='3e 00', page=255, length=24, data=B0Cmd35DecodedData(data='JS702413 I01.033', length=16, config='3e 00', config_str='PANEL_BOOT_VERSION', data_type='STRING'), checksum='0e', verified=True)
+
+2024-07-26 18:45:49.022 INFO     [1;36mDECODED 35 5b 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='5b 00', page=255, length=9, data=B0Cmd35DecodedData(data=160, length=1, config='5b 00', config_str='BYPASS_ARM', data_type='INTEGER'), checksum='ce', verified=True)
+
+2024-07-26 18:45:49.094 INFO     [1;36mDECODED 35 5c 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='5c 00', page=255, length=9, data=B0Cmd35DecodedData(data=161, length=1, config='5c 00', config_str='Unknown', data_type='INTEGER'), checksum='cb', verified=True)
+
+2024-07-26 18:45:49.318 INFO     [1;36mDECODED 56:[0m B0Response(type='RESPONSE', command='56', cmd_name='UNKNOWN', params='', page=255, length=12, data=B0GenDecodedData(data=[{'type': 'BYTES', 'idx': 255, 'idx_name': 'NA', 'len': 7, 'data': ['03', '00', '02', '00', '06', '00', '00']}], length=12), checksum='9a', verified=True)
+
+2024-07-26 18:45:49.521 INFO     [1;36mDECODED 3c:[0m STDMessage(command='3c', command_str='EPROM_INFO', data='fd 0a 00 00 ae 07 01 00 00 00', checksum='05', verified=True)
+
+2024-07-26 18:45:49.748 INFO     [1;36mDECODED 3f:[0m STDMessage(command='3f', command_str='CONFIG_VALUE', data='e0 01 01 02', checksum='db', verified=True)
+
+2024-07-26 18:45:49.887 INFO     [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=6, data=B0DecodedData(data=['24']), checksum='8f', verified=True)
+
+2024-07-26 18:45:50.108 INFO     [1;36mDECODED 35 03 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='03 00', page=255, length=14, data=B0Cmd35DecodedData(data='052058105181', length=6, config='03 00', config_str='COMMS_CS_REC1_IP', data_type='DIRECT_MAP_STRING'), checksum='59', verified=True)
+
+2024-07-26 18:45:50.318 INFO     [1;36mDECODED 35 05 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='05 00', page=255, length=14, data=B0Cmd35DecodedData(data='192168200054', length=6, config='05 00', config_str='COMMS_CS_REC2_IP', data_type='DIRECT_MAP_STRING'), checksum='9f', verified=True)
+
+2024-07-26 18:45:50.494 INFO     [1;36mDECODED 35 8a 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='8a 00', page=255, length=11, data=B0Cmd35DecodedData(data=[2, 0, 0], length=3, config='8a 00', config_str='Unknown', data_type='INTEGER'), checksum='31', verified=True)
+
+2024-07-26 18:45:50.726 INFO     [1;36mDECODED 35 08 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='08 00', page=255, length=104, data=B0Cmd35DecodedData(data={1: '1111'}, length=96, config='08 00', config_str='USER_CODES', data_type='DIRECT_MAP_STRING'), checksum='da', verified=True)
+
+2024-07-26 18:45:50.913 INFO     [1;36mDECODED 42 e2 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='e2 00', page=255, length=27, data=B0Cmd42DecodedData(data=[7, 1, 1, 1, 1, 1, 1, 1], length=8, config='e2 00', config_str='USER_PARTITION_ACCESS', data_type='INTEGER'), checksum='67', verified=True)
+
+2024-07-26 18:45:51.096 INFO     [1;36mDECODED 35 0f 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='0f 00', page=255, length=10, data=B0Cmd35DecodedData(data='aaaa', length=2, config='0f 00', config_str='DOWNLOAD_CODE', data_type='DIRECT_MAP_STRING'), checksum='5b', verified=True)
+
+2024-07-26 18:45:51.174 INFO     [1;36mDECODED 35 54 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='54 00', page=255, length=10, data=B0Cmd35DecodedData(data='8888', length=2, config='54 00', config_str='INSTALLER_CODE', data_type='DIRECT_MAP_STRING'), checksum='59', verified=True)
+
+2024-07-26 18:45:51.256 INFO     [1;36mDECODED 35 55 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='55 00', page=255, length=10, data=B0Cmd35DecodedData(data='9999', length=2, config='55 00', config_str='MASTER_CODE', data_type='DIRECT_MAP_STRING'), checksum='35', verified=True)
+
+2024-07-26 18:45:51.333 INFO     [1;36mDECODED 35 06 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='06 01', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='06 01', config_str='Unknown', data_type='INTEGER'), checksum='b4', verified=True)
+
+2024-07-26 18:45:51.523 INFO     [1;36mDECODED 42 0d 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='0d 00', page=255, length=19, data=B0Cmd42DecodedData(data=None, length=0, config='0d 00', config_str='ZONE_NAMES', data_type='SPACE_PADDED_STRING_LIST'), checksum='94', verified=True)
+
+2024-07-26 18:45:52.542 INFO     [1;36mDECODED 06:[0m STDMessage(command='06', command_str='HELLO', data='', checksum='f9', verified=True)
+
+2024-07-26 18:45:52.721 INFO     [1;36mDECODED 42 42 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='42 00', page=255, length=109, data=B0Cmd42DecodedData(data=['Loft', 'Back door', 'Cellar', 'Bathroom', 'Bedroom', 'Child room', 'Conservatory', 'Play room', 'Dining room', 'Downstairs', 'Emergency', 'Fire', 'Front door', 'Garage', 'Garage door', 'Office', 'Hall', 'Kitchen', 'Laundry room', 'Living room', 'Master bath', 'Master Bdrm', 'Study', 'Upstairs', 'Utility room', 'Garden', 'Custom 1', 'Custom 2', 'Custom 3', 'Custom 4', 'Custom 5'], length=930, config='42 00', config_str='CUSTOM_ZONE_NAMES', data_type='SPACE_PADDED_STRING_LIST'), checksum='2e', verified=True)
+
+2024-07-26 18:45:52.952 INFO     [1;36mDECODED 42 e9 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='e9 00', page=255, length=127, data=B0Cmd42DecodedData(data=['0', '', '.', ',', '1', 'A', 'B', 'C', '2', 'D', 'E', 'F', '3', 'G', 'H', 'I', '4', 'J', 'K', 'L', '5', 'M', 'N', 'O', '6', 'P', 'Q', 'R', 'S', '7', 'T', 'U', 'V', '8', 'W', 'X', 'Y', 'Z', '9', '!', '#', '%', '&', "'", '*', '+', '-', '/', '=', '^', '@', '_', '"', ':'], length=108, config='e9 00', config_str='ACCEPTED_CHARS_UPPER', data_type='SPACE_PADDED_STRING_LIST'), checksum='d8', verified=True)
+
+2024-07-26 18:45:53.188 INFO     [1;36mDECODED 42 ea 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='ea 00', page=255, length=127, data=B0Cmd42DecodedData(data=['0', '', '.', ',', '1', 'a', 'b', 'c', '2', 'd', 'e', 'f', '3', 'g', 'h', 'i', '4', 'j', 'k', 'l', '5', 'm', 'n', 'o', '6', 'p', 'q', 'r', 's', '7', 't', 'u', 'v', '8', 'w', 'x', 'y', 'z', '9', '!', '#', '%', '&', "'", '*', '+', '-', '/', '=', '^', '@', '_', '"', ':'], length=108, config='ea 00', config_str='ACCEPTED_CHARS_LOWER', data_type='SPACE_PADDED_STRING_LIST'), checksum='93', verified=True)
+
+2024-07-26 18:45:53.371 INFO     [1;36mDECODED 35 e8 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='e8 00', page=255, length=9, data=B0Cmd35DecodedData(data=0, length=1, config='e8 00', config_str='PANEL_LANGUAGE', data_type='INTEGER'), checksum='c4', verified=True)
+
+2024-07-26 18:45:53.566 INFO     [1;36mDECODED 76:[0m B0Response(type='RESPONSE', command='76', cmd_name='UNKNOWN', params='', page=255, length=10, data=B0GenDecodedData(data=[{'type': 'WORD40', 'idx': 18, 'idx_name': 'UKN18', 'len': 5, 'data': ['00 00 00 00 00']}], length=10), checksum='3b', verified=True)
+
+2024-07-26 18:45:53.796 INFO     [1;36mDECODED 58:[0m B0Response(type='RESPONSE', command='58', cmd_name='UNKNOWN', params='', page=255, length=61, data=B0GenDecodedData(data=[{'type': 'WORD112', 'idx': 255, 'idx_name': 'NA', 'len': 56, 'data': ['04 05 00 00 01 00 ff 02 76 01 47 04 00 ff', '03 0c 00 00 01 00 0c 02 7e 00 52 17 00 07', '03 2d 01 00 01 00 16 03 68 00 a0 16 00 04', '0b 01 00 00 00 00 0c 07 46 00 01 00 00 ff']}], length=61), checksum='0b', verified=True)
+
+2024-07-26 18:45:53.974 INFO     [1;36mDECODED 1d:[0m B0Response(type='RESPONSE', command='1d', cmd_name='ENROLLED', params='', page=255, length=9, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 10, 'idx_name': 'TAGS', 'len': 4, 'data': ['01', '00', '00', '00']}], length=9), checksum='c2', verified=True)
+
+2024-07-26 18:45:54.323 INFO     [1;36mDECODED 42 a4 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='a4 00', page=255, length=59, data=B0Cmd42DecodedData(data=['', '', '', ''], length=160, config='a4 00', config_str='EMAIL_ADDRESSES', data_type='INTEGER'), checksum='49', verified=True)
+
+2024-07-26 18:45:54.411 INFO     [1;36mDECODED 42 a5 00:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='a5 00', page=255, length=51, data=B0Cmd42DecodedData(data=['', '', '', ''], length=32, config='a5 00', config_str='PHONE_NUMBERS', data_type='INTEGER'), checksum='58', verified=True)
+
+2024-07-26 18:45:54.491 INFO     [1;36mDECODED 42 18 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='18 01', page=255, length=23, data=B0Cmd42DecodedData(data=[0, 0, 0, 0], length=4, config='18 01', config_str='EMAIL_REPORTED_EVENTS', data_type='INTEGER'), checksum='54', verified=True)
+
+2024-07-26 18:45:54.570 INFO     [1;36mDECODED 42 19 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='19 01', page=255, length=23, data=B0Cmd42DecodedData(data=[0, 0, 0, 0], length=4, config='19 01', config_str='SMS_REPORTED_EVENTS', data_type='INTEGER'), checksum='52', verified=True)
+
+2024-07-26 18:45:54.790 INFO     [1;36mDECODED 42 1e 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='1e 01', page=255, length=35, data=B0Cmd42DecodedData(data='04 7e 7e 4f 98 80 0a 24 00 c8 20 00 00 00 c0 00', length=16, config='1e 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='6d', verified=True)
+
+2024-07-26 18:45:54.942 INFO     [1;36mDECODED 51:[0m B0Response(type='RESPONSE', command='51', cmd_name='ASK_ME', params='', page=255, length=6, data=B0DecodedData(data=['24']), checksum='6b', verified=True)
+
+2024-07-26 18:45:55.035 INFO     [1;36mDECODED 42 1f 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='1f 01', page=255, length=20, data=B0Cmd42DecodedData(data='01', length=1, config='1f 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='3f', verified=True)
+
+2024-07-26 18:45:55.250 INFO     [1;36mDECODED 35 a3 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='a3 01', page=255, length=39, data=B0Cmd35DecodedData(data='00 00 00 00 80 00 00 20 00 00 00 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', length=31, config='a3 01', config_str='Unknown', data_type='UNKNOWN-5'), checksum='9c', verified=True)
+
+2024-07-26 18:45:55.443 INFO     [1;36mDECODED 35 a2 01:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='a2 01', page=255, length=9, data=B0Cmd35DecodedData(data=1, length=1, config='a2 01', config_str='Unknown', data_type='INTEGER'), checksum='f9', verified=True)
+
+2024-07-26 18:45:55.646 INFO     [1;36mDECODED 42 85 01:[0m B0Response(type='RESPONSE', command='42', cmd_name='SETTINGS2', params='85 01', page=255, length=20, data=B0Cmd42DecodedData(data=0, length=1, config='85 01', config_str='SSL_FOR_IPMP', data_type='INTEGER'), checksum='d7', verified=True)
+
+2024-07-26 18:45:56.153 INFO     [1;36mDECODED 35 58 00:[0m B0Response(type='RESPONSE', command='35', cmd_name='SETTINGS', params='58 00', page=255, length=9, data=B0Cmd35DecodedData(data=30, length=1, config='58 00', config_str='EXIT_DELAY', data_type='INTEGER'), checksum='26', verified=True)
+
+2024-07-26 18:45:56.362 INFO     [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='48', verified=True)
+
+2024-07-26 18:45:56.606 INFO     [1;36mDECODED 0c:[0m B0Response(type='RESPONSE', command='0c', cmd_name='UNKNOWN', params='', page=255, length=31, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 0, 'idx_name': 'REPEATERS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 2, 'idx_name': 'SIRENS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}, {'type': 'BITS', 'idx': 4, 'idx_name': 'KEYPADS', 'len': 4, 'data': ['00', '00', '00', '00']}], length=31), checksum='a2', verified=True)
+
+2024-07-26 18:45:56.909 INFO     [1;36mDECODED 0e:[0m B0Response(type='RESPONSE', command='0e', cmd_name='UNKNOWN', params='', page=255, length=37, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 0, 'idx_name': 'REPEATERS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 1, 'idx_name': 'X10', 'len': 2, 'data': ['00', '00']}, {'type': 'BITS', 'idx': 2, 'idx_name': 'SIRENS', 'len': 1, 'data': ['00']}, {'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}, {'type': 'BITS', 'idx': 4, 'idx_name': 'KEYPADS', 'len': 4, 'data': ['00', '00', '00', '00']}], length=37), checksum='95', verified=True)
+
+2024-07-26 18:45:57.095 INFO     [1;36mDECODED 19:[0m B0Response(type='RESPONSE', command='19', cmd_name='BYPASSES', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='b4', verified=True)
+
+2024-07-26 18:45:57.276 INFO     [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:45:11', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='68', verified=True)
+
+2024-07-26 18:45:57.457 INFO     [1;36mDECODED 27:[0m B0Response(type='RESPONSE', command='27', cmd_name='CAMERA_SOMETING', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 7, 'idx_name': 'CAMERASA', 'len': 2, 'data': ['00', '00']}, {'type': 'BITS', 'idx': 11, 'idx_name': 'CAMERASB', 'len': 2, 'data': ['00', '00']}], length=13), checksum='98', verified=True)
+
+2024-07-26 18:45:57.665 INFO     [1;36mDECODED 4b:[0m B0Response(type='RESPONSE', command='4b', cmd_name='ZONE_LAST_EVENT', params='', page=255, length=155, data=B0DecodedData(data={1: {'datetime': '2024-07-26 18:24:15', 'code': 'CHECKIN'}, 2: {'datetime': '2024-07-26 18:41:06', 'code': 'CLOSED'}, 3: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 4: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 5: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 6: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 7: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 8: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 9: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 10: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 11: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 12: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 13: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 14: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 15: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 16: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 17: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 18: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 19: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 20: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 21: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 22: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 23: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 24: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 25: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 26: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 27: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 28: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 29: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}, 30: {'datetime': '2000-01-01 12:00:01', 'code': 'NA'}}), checksum='8b', verified=True)
+
+2024-07-26 18:45:57.907 INFO     [1;36mDECODED 4e:[0m B0Response(type='RESPONSE', command='4e', cmd_name='ZONE4E', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='7b', verified=True)
+
+2024-07-26 18:45:58.089 INFO     [1;36mDECODED 4f:[0m B0Response(type='RESPONSE', command='4f', cmd_name='ZONE4F', params='', page=255, length=13, data=B0GenDecodedData(data=[{'type': 'BITS', 'idx': 3, 'idx_name': 'ZONES', 'len': 8, 'data': ['00', '00', '00', '00', '00', '00', '00', '00']}], length=13), checksum='79', verified=True)
+
+2024-07-26 18:45:58.276 INFO     [1;36mDECODED 76:[0m B0Response(type='RESPONSE', command='76', cmd_name='UNKNOWN', params='', page=255, length=10, data=B0GenDecodedData(data=[{'type': 'WORD40', 'idx': 18, 'idx_name': 'UKN18', 'len': 5, 'data': ['00 00 00 00 00']}], length=10), checksum='21', verified=True)
+
+2024-07-26 18:45:58.459 INFO     [1;36mDECODED 24:[0m B0Response(type='RESPONSE', command='24', cmd_name='PANEL_STATUS', params='', page=255, length=26, data=B0DecodedData(data={'datetime': '2024-07-26 18:45:12', 'partitions': 1, 'states': {1: {'State': 'DISARM', 'Ready': True, 'Alarm in Memory': False, 'Trouble': False, 'Bypass': False, 'Last 10 Secs': False, 'Zone Event': False, 'Status Changed': False, 'Alarm Event': True}}}), checksum='61', verified=True)
+
+2024-07-26 18:45:58.655 INFO     [1;36mDECODED 54:[0m B0Response(type='RESPONSE', command='54', cmd_name='UNKNOWN', params='', page=255, length=5, data=B0GenDecodedData(data=[], length=5), checksum='3d', verified=True)
+
