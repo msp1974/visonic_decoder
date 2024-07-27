@@ -842,6 +842,10 @@ class B0MessageDecoder:
 
         return B0GenDecodedData(length=message.length_all_data, data=decoded_chunks)
 
+    def b0_0f_data_decoder(self, message: B0StructuredResponseMessage) -> B0DecodedData:
+        """Decode a 0f message"""
+        return B0DecodedData(data=message.data[0])
+    
     def b0_22_data_decoder(self, message: B0StructuredResponseMessage) -> B0DecodedData:
         """Decode a 22 messgae - panel capabilities.
 
