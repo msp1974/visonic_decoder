@@ -5,9 +5,10 @@ from enum import StrEnum
 import logging
 from textwrap import wrap
 
+from ..refs import SYSTEM_STATUS
+
 from ..const import (
     EVENTS,
-    ArmModes,
     DataType,
     DataTypes,
     IndexName,
@@ -845,7 +846,7 @@ class B0MessageDecoder:
     def b0_0f_data_decoder(self, message: B0StructuredResponseMessage) -> B0DecodedData:
         """Decode a 0f message"""
         return B0DecodedData(data=message.data[0])
-    
+
     def b0_22_data_decoder(self, message: B0StructuredResponseMessage) -> B0DecodedData:
         """Decode a 22 messgae - panel capabilities.
 
@@ -877,6 +878,7 @@ class B0MessageDecoder:
         8 -> 14 is panel datetime in ss mn hh dd mm yy yy
         15 - don't know
         16 - number of partitions
+        17 - system status
         22, 26, 30 - partitions status
         23, 27, 31 - troubles?
         24, 28, 32 - gprs
@@ -898,7 +900,7 @@ class B0MessageDecoder:
                 sys_status.update(
                     {
                         idx + 1: {
-                            "State": ArmModes(state).name,
+                            "State": SYSTEM_STATUS[state],
                             "Ready": bool(sys & (0b1 << 0)),
                             "Alarm in Memory": bool(sys & (0b1 << 1)),
                             "Trouble": bool(sys & (0b1 << 2)),
